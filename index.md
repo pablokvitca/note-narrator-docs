@@ -64,3 +64,6 @@ Note Narrator is an Obsidian plugin that **reads your notes aloud** using text t
 
 > [!info] About this documentation
 > These docs describe version **0.17** (currently in beta). It adds providers and narrator profiles, tabbed settings, and the toolbar saved-audio icon. If you are on 0.16.x, the settings screen looks different from these pages. Something wrong or missing? Open an issue on the [GitHub repository](https://github.com/pablokvitca/note-narrator).
+
+> [!note] Independent project
+> Note Narrator is an independent project. It is not affiliated with, endorsed by, or sponsored by Obsidian or ElevenLabs. "Obsidian" and "ElevenLabs" are trademarks of their respective owners and are used here only to describe what the plugin works with. See [[Privacy and Network Use]] for how your data is handled.
