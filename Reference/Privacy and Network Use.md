@@ -37,3 +37,17 @@ Nothing is sent to the plugin author.
 
 > [!tip] Keep audio out of sync targets
 > If your vault syncs, saved `.mp3` files sync with it and can be large. Choose a folder you can exclude from sync under **Save location**. Saving outside the vault is planned. See [[Roadmap]].
+
+## ElevenLabs terms that apply to you
+
+Note Narrator only sends requests to ElevenLabs on your behalf. Your ElevenLabs account and the audio it produces are covered by ElevenLabs' own terms:
+
+- **Who can use it:** ElevenLabs' [Terms of Service](https://elevenlabs.io/terms-of-use) say you must be 18 or over (or of legal age where you live) to use its services.
+- **What you may do with the audio:** the terms allow free accounts to use the service for non-commercial purposes only, and paid plans for commercial purposes. Check your plan before using saved audio commercially.
+- **What you may read:** you need the rights to any text you send, and your use must follow ElevenLabs' [Prohibited Use Policy](https://elevenlabs.io/use-policy).
+- **AI-generated audio:** if you share it, consider saying it is AI-generated.
+- **Your API key:** it is yours alone. Do not share it or use it to resell access.
+
+> [!note] Not legal advice
+> These are summaries, and ElevenLabs can change its terms. The terms on their site are the ones that count.
+
