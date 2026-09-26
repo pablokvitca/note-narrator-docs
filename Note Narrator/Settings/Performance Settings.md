@@ -22,8 +22,8 @@ The **Performance** tab controls how quickly playback starts.
 
 | Setting | Default | Greyed out when | What it does |
 | --- | --- | --- | --- |
-| **Start playback immediately** | On | never | Plays as soon as the first chunk is ready, instead of waiting for the whole note |
-| **Quick start** | On | Start immediately is off | Makes the first chunk artificially short (including the title and properties preamble) so playback starts sooner |
+| **Start playback immediately** | Enabled | never | Plays as soon as the first chunk is ready, instead of waiting for the whole note |
+| **Quick start** | Enabled | Start immediately is off | Makes the first chunk artificially short (including the title and properties preamble) so playback starts sooner |
 | **Quick start unit** | Words | Start immediately or Quick start is off | Size the first chunk in **Words** or **Characters** |
 | **Quick start word count** | 150 | Unit is not Words, or the settings above are off | Target size in words. Recommended 50 to 300. Has a reset button |
 | **Quick start character count** | 750 | Unit is not Characters, or the settings above are off | Slider 100 to 2000, step 50 |

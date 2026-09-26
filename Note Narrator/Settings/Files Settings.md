@@ -22,7 +22,7 @@ The **Files** tab controls saved audio. Concepts are explained in [[Saving Audio
 With saving off, the options that depend on it are greyed out.
 
 > [!important] Turning on saving turns on linking
-> Linking is **on by default**, and switching **Save generated audio to a file** on also switches **Link saved audio in the note** on, even if you had turned it off. Saved audio is most useful when the note tracks it.
+> Linking is **enabled by default**, and switching **Save generated audio to a file** on also switches **Link saved audio in the note** on, even if you had turned it off. Saved audio is most useful when the note tracks it.
 
 Everything except the first setting is **greyed out until saving is on**, and the property settings, regeneration, auto-generate and cleanup are also greyed out while linking is off.
 
@@ -30,17 +30,17 @@ Everything except the first setting is **greyed out until saving is on**, and th
 
 | Setting | Default | Greyed out when | What it does |
 | --- | --- | --- | --- |
-| **Save generated audio to a file** | Off | never | Saves each read as an `.mp3` in the vault |
+| **Save generated audio to a file** | Disabled | never | Saves each read as an `.mp3` in the vault |
 | **Save location** | Same folder as the note | Saving is off | Same folder, or a custom folder |
 | **Custom folder path** | `Note Narrator Audio` | Saving is off, or location is not Custom folder | Vault-relative folder, created if missing. Empty falls back to the default |
 | **On regenerate** | Replace existing file | Saving or linking is off | **Replace existing file** or **Keep old versions** |
-| **Auto-generate on open** | Off | Saving or linking is off | Silently regenerates missing or outdated audio when a note opens |
+| **Auto-generate on open** | Disabled | Saving or linking is off | Silently regenerates missing or outdated audio when a note opens |
 
 ## Linking in the note
 
 | Setting | Default | Greyed out when | What it does |
 | --- | --- | --- | --- |
-| **Link saved audio in the note** | On | Saving is off | Writes the link and tracking data to frontmatter and enables up to date / outdated tracking |
+| **Link saved audio in the note** | Enabled | Saving is off | Writes the link and tracking data to frontmatter and enables up to date / outdated tracking |
 | **Link property** | `note_narrator_audio` | Saving or linking is off | Property holding the link to the audio |
 | **Hash property** | `note_narrator_audio_hash` | Saving or linking is off | Content hash used to detect staleness |
 | **Path property** | `note_narrator_audio_path` | Saving or linking is off | Raw vault path, used internally to find the file |
@@ -56,8 +56,8 @@ Everything except the first setting is **greyed out until saving is on**, and th
 
 | Setting | Default | Greyed out when | What it does |
 | --- | --- | --- | --- |
-| **Show "clear Note Narrator files" menu item and delete button** | On | Saving or linking is off | Enables the panel menu item and the status-line delete button |
-| **Auto-clean up properties when saved file is missing** | On | Saving or linking is off | Removes stale properties if the linked file no longer exists |
+| **Show "clear Note Narrator files" menu item and delete button** | Enabled | Saving or linking is off | Enables the panel menu item and the status-line delete button |
+| **Auto-clean up properties when saved file is missing** | Enabled | Saving or linking is off | Removes stale properties if the linked file no longer exists |
 
 > [!danger] Auto-generate on open spends credits
 > It makes provider requests every time you open a note that is missing audio or outdated. Leave it off for notes you edit constantly.

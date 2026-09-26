@@ -16,9 +16,9 @@ updated: 2026-09-26
 Saving turns each read into an `.mp3` in your vault so you can replay it later without spending more credits.
 
 > [!abstract] Three layers
-> 1. **Save generated audio to a file**: write the `.mp3`. Off by default.
-> 2. **Link saved audio in the note**: record the link and tracking data in the note's frontmatter. **On by default**, and turning on layer 1 turns it on too.
-> 3. **Auto-generate on open**: keep audio fresh in the background. Off by default. Needs layers 1 and 2.
+> 1. **Save generated audio to a file**: write the `.mp3`. Disabled by default.
+> 2. **Link saved audio in the note**: record the link and tracking data in the note's frontmatter. **Enabled by default**, and turning on layer 1 turns it on too.
+> 3. **Auto-generate on open**: keep audio fresh in the background. Disabled by default. Needs layers 1 and 2.
 
 Settings are in [[Files Settings]]. Settings that do not apply, such as the property names while saving is off, are greyed out.
 
@@ -68,7 +68,7 @@ Opening a note silently regenerates and saves its audio if it is missing or outd
 
 **Clear Note Narrator files** (panel **⋮** menu, or the delete button on the status line) removes a note's audio file and its properties after a confirmation. The file goes to the trash according to your vault's deletion preference. The properties cannot be restored.
 
-If a linked file is deleted or moved outside Note Narrator, the plugin can quietly remove the stale properties so the note does not show a misleading "outdated" status. That is **Auto-clean up properties when saved file is missing** (on by default).
+If a linked file is deleted or moved outside Note Narrator, the plugin can quietly remove the stale properties so the note does not show a misleading "outdated" status. That is **Auto-clean up properties when saved file is missing** (enabled by default).
 
 ## Where does it go?
 

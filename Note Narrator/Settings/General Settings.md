@@ -25,12 +25,12 @@ With **Skip Markdown comments** off, the two comment options below it are greyed
 
 | Setting | Default | Greyed out when | What it does |
 | --- | --- | --- | --- |
-| **Read selection instead of whole note** | On | never | With a text selection active, reads only the selection |
-| **Read note title** | On | never | Speaks the note's title before its content |
-| **Read note properties** | Off | never | Speaks "properties", each key and value, then "content", before the body. Not used for a selection |
-| **Skip Markdown comments** | On | never | Strips Obsidian comments (`%% like this %%`) before reading |
-| **Don't read comment delimiter symbols** | On | Skip Markdown comments is on | Never reads the raw `%%` markup aloud, only the text between |
-| **Announce comments as "Comment: ..."** | On | Skip Markdown comments is on | Prefixes a comment's text with "Comment:" |
+| **Read selection instead of whole note** | Enabled | never | With a text selection active, reads only the selection |
+| **Read note title** | Enabled | never | Speaks the note's title before its content |
+| **Read note properties** | Disabled | never | Speaks "properties", each key and value, then "content", before the body. Not used for a selection |
+| **Skip Markdown comments** | Enabled | never | Strips Obsidian comments (`%% like this %%`) before reading |
+| **Don't read comment delimiter symbols** | Enabled | Skip Markdown comments is on | Never reads the raw `%%` markup aloud, only the text between |
+| **Announce comments as "Comment: ..."** | Enabled | Skip Markdown comments is on | Prefixes a comment's text with "Comment:" |
 | **Text chunker** | Markdown-aware | never | Markdown-aware or Sentence-only |
 | **Max heading depth for sections** | 2 | Chunker is not Markdown-aware | Slider 1 to 6. Headings at or shallower than this start a new section |
 | **Skip sections by heading** | empty | Chunker is not Markdown-aware | One regex per line. Matching sections are skipped entirely |

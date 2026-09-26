@@ -55,7 +55,7 @@ The goal for 1.0 is a polished first public release.
 | **HTML comment skipping fix** | `<!-- -->` comments are currently read aloud. A previous attempt did not hold up |
 | **"Do not read aloud" delimiters** | A start and end marker, for example `---(start do not read aloud)---`, to exclude any region regardless of chunker |
 | **Hide Note Narrator properties** | A toggle to hide its frontmatter from the rendered Properties view (feasibility is being investigated) |
-| **Read out backlinks** | An option to speak the notes that link to this one. Off by default |
+| **Read out backlinks** | An option to speak the notes that link to this one. Disabled by default |
 | **Better per-chunk saving** | Proper MP3 re-muxing, or saving chunks separately with a manifest |
 
 ### 2.0
