@@ -34,10 +34,10 @@ Each placeholder in the docs is a `> [!todo] Screenshot needed: ...` callout. To
 - [x] `panel-generation-bar.png` on [[The Panel]]. Ready, generating, current and empty segments
 - [x] `toolbar-icon-states.png` on [[The Panel]]. Normal and 0.17 saved states
 - [x] `playback-controls-row.png` on [[Playback Controls]]. Labeled transport row and sliders
-- [ ] `slider-compact-popover.png` on [[Playback Controls]]. Narrow panel pill with popover
+- [x] `slider-compact-popover.png` on [[Playback Controls]]. Narrow panel pill with popover
 - [x] `panel-saved-status.png` on [[Saving Audio]]. Up to date and outdated status lines
 - [x] `highlight-margin-marker.png`, `highlight-background.png` and `highlight-underline.png` on [[Highlighting and Scrolling]]. One per style
-- [ ] `background-jobs-list.png` on [[Background Generation]]. One generating, one finished
+- [x] `background-jobs-list.png` on [[Background Generation]]. One generating, one finished
 
 ## Settings
 
@@ -50,7 +50,3 @@ Each placeholder in the docs is a `> [!todo] Screenshot needed: ...` callout. To
 - [x] `settings-appearance.png` on [[Appearance Settings]]. Highlighting on so dependents are enabled
 - [x] `settings-performance.png` on [[Performance Settings]]
 - [x] `settings-files.png` on [[Files Settings]]. Saving on, plus a variant with saving off (greyed out)
-
-## Nice to have
-
-- [ ] A short GIF of a full read: click Read, playback starts, highlight follows. Would sit on [[index]] or [[Quick Start]]

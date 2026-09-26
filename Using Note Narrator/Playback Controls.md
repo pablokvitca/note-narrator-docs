@@ -43,8 +43,7 @@ The rewind and skip amounts are separate dropdowns (5 to 60 seconds). The icons 
 
 Either row can be hidden in [[Appearance Settings]] if you do not use it. On narrow panels each collapses to a small pill that opens a popover slider.
 
-> [!todo] Screenshot needed: `slider-compact-popover.png`
-> The compact speed pill with its popover slider open (narrow panel).
+![[slider-compact-popover.png]]
 
 ## Progress
 
