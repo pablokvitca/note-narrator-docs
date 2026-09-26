@@ -41,8 +41,8 @@ ElevenLabs limits how much text one request can hold, so Note Narrator splits a 
 - More parallelism finishes long notes sooner, but makes more simultaneous requests and hits rate limits sooner.
 
 > [!warning] Rate limits
-> On an HTTP 429 from ElevenLabs, requests retry with exponential backoff (up to 3 attempts) and generation falls back to one chunk at a time for the **rest of that read**. Each new read starts again at your configured parallelism.
+> On an HTTP 429 from ElevenLabs, requests retry with exponential backoff (up to 8 retries, with the wait capped at 30 seconds) and generation falls back to one chunk at a time for the **rest of that read**. Each new read starts again at your configured parallelism.
 
 ## Saved audio and chunks
 
-Saved audio remembers its own chunk boundaries so Previous/Next part and highlighting keep working during Play Saved. If chunk-affecting settings changed since generation, the file plays as one non-navigable piece until you regenerate. See [[Saving Audio]] and [[Known Limitations]].
+Saved audio remembers its own chunk boundaries so Previous/Next part and highlighting keep working during Play saved. If chunk-affecting settings changed since generation, the file plays as one non-navigable piece until you regenerate. See [[Saving Audio]] and [[Known Limitations]].

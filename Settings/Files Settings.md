@@ -15,8 +15,11 @@ updated: 2026-09-26
 
 The **Files** tab controls saved audio. Concepts are explained in [[Saving Audio]]. It has three groups: **Saving audio**, **Linking in the note**, and **Cleanup**.
 
-> [!todo] Screenshot needed: `settings-files.png`
-> The Files tab with saving on. Take a second one with saving off, showing the dependent settings greyed out.
+![[settings-files.png]]
+
+![[settings-files-saving-off.png]]
+
+With saving off, the options that depend on it are greyed out.
 
 > [!important] Turning on saving turns on linking
 > Linking is **on by default**, and switching **Save generated audio to a file** on also switches **Link saved audio in the note** on, even if you had turned it off. Saved audio is most useful when the note tracks it.

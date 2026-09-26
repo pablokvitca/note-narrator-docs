@@ -14,8 +14,7 @@ updated: 2026-09-26
 
 Open **Settings, Note Narrator**. A tab bar at the top switches between six sections, each with its own page here.
 
-> [!todo] Screenshot needed: `settings-tab-overview.png`
-> The settings screen with the tab bar visible (General tab selected).
+![[settings-tab-overview.png]]
 
 | Tab | Page | About |
 | --- | --- | --- |

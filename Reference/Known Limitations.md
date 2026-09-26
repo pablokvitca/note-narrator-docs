@@ -29,7 +29,7 @@ Things that do not work the way you might expect yet. Many have a planned fix on
 - **Staleness is whole-note.** The hash covers the full note, so editing anything, even outside what was read (for example after reading a selection), marks the audio outdated.
 - **Replace keeps the old filename.** With "Replace existing file", a narrator change keeps the original filename (with the old voice name in brackets) and only replaces the contents.
 - **Multi-part files are concatenated bytes.** Chunks are joined without re-muxing the MP3 stream. This works with ElevenLabs output but is not strictly spec-correct MP3 concatenation.
-- **Part navigation can fall back.** During Play Saved, if chunk-affecting settings changed since the audio was made, or the byte lengths do not add up, the file plays as a single non-navigable piece even though the note still says "up to date". Regenerate to fix it.
+- **Part navigation can fall back.** During Play saved, if chunk-affecting settings changed since the audio was made, or the byte lengths do not add up, the file plays as a single non-navigable piece even though the note still says "up to date". Regenerate to fix it.
 - **Clear has no undo** for the properties. The file goes to trash per your vault setting.
 
 ## Playback and highlighting
@@ -48,7 +48,7 @@ Things that do not work the way you might expect yet. Many have a planned fix on
 
 ## Platform
 
-- Requires Obsidian 1.13.0 or newer.
+- Requires Obsidian 1.13.1 or newer.
 - Requires an ElevenLabs account. ElevenLabs is the only provider type so far, though you can add several ElevenLabs providers. No offline or local voice yet.
 
 > [!question] Found something not listed?

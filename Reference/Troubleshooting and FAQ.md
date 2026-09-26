@@ -45,7 +45,7 @@ Highlighting needs the note open in **Editing view**, and **Highlight while read
 
 Any change to the note, anywhere, marks audio outdated. Exclude noisy properties with **Extra properties to exclude from staleness hashing**. See [[Saving Audio]].
 
-## Previous and Next part do not work during Play Saved
+## Previous and Next part do not work during Play saved
 
 Either the note is outdated, or a chunk-affecting setting changed since the audio was made, so the file plays as one piece. Regenerate. See [[Known Limitations]].
 

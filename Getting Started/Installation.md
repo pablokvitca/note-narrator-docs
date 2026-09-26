@@ -19,7 +19,7 @@ updated: 2026-09-26
 
 | Requirement | Details |
 | --- | --- |
-| Obsidian | **1.13.0 or newer** (the settings tab uses the declarative settings API) |
+| Obsidian | **1.13.1 or newer** (the settings tab uses the declarative settings API) |
 | Platforms | Desktop and mobile (iPhone, iPad, iPad mini and visionOS have been tested) |
 | Account | An [ElevenLabs](https://elevenlabs.io) account and API key |
 | Network | Internet access to `api.elevenlabs.io` when you read or regenerate. See [[Privacy and Network Use]] |
@@ -36,8 +36,7 @@ updated: 2026-09-26
 > [!tip] Want betas?
 > Stable releases are picked up automatically. To try in-development builds, enable "beta versions" for this plugin in BRAT's settings.
 
-> [!todo] Screenshot needed: `install-brat-add-plugin.png`
-> BRAT's "Add a beta plugin" dialog with `pablokvitca/note-narrator` entered.
+![[install-brat-add-plugin.png]]
 
 ## Option 2: Manual install
 

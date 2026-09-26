@@ -15,8 +15,11 @@ updated: 2026-09-26
 
 The **General** tab has the default configuration. Everything under **Reading** here can be overridden per narrator profile. See [[Profiles Settings#Reading overrides|reading overrides]].
 
-> [!todo] Screenshot needed: `settings-general.png`
-> The General tab. Take a second one with **Skip Markdown comments** off so the greyed-out comment toggles become active.
+![[settings-general.png]]
+
+![[settings-general-comments-off.png]]
+
+With **Skip Markdown comments** off, the two comment options below it are greyed out.
 
 ## Reading
 

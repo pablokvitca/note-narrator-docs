@@ -16,14 +16,13 @@ updated: 2026-09-26
 
 The **Appearance** tab has two groups: **Panel** and **Highlighting**.
 
-> [!todo] Screenshot needed: `settings-appearance.png`
-> The Appearance tab showing both groups, with **Highlight while reading** on.
+![[settings-appearance.png]]
 
 ## Panel
 
 | Setting | Default | What it does |
 | --- | --- | --- |
-| **Compact buttons** | Off | Play Saved, Read, Cancel and Background become icon-only with tooltips, at every panel size |
+| **Compact buttons** | Off | Play saved, Read, Cancel and Background become icon-only with tooltips, at every panel size |
 | **Show volume slider in panel** | On | Shows the volume slider and mute button |
 | **Show playback speed slider in panel** | On | Shows the speed slider |
 | **Time display** | Show current part times | **Show full times**, **Show current part times**, or **Show full times + current part times** (full totals with the current part in parentheses). Ungenerated parts show as "+N parts" |

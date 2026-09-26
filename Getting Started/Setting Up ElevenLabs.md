@@ -52,4 +52,4 @@ The character limit is the size of one request. Longer notes are split into seve
 
 ## Rate limits
 
-If ElevenLabs answers with a rate limit (HTTP 429), Note Narrator retries automatically with exponential backoff (up to three attempts) and switches to one chunk at a time for the rest of that read. Parallelism is set per provider. See [[Providers Settings]].
+If ElevenLabs answers with a rate limit (HTTP 429), Note Narrator retries automatically with exponential backoff (up to 8 retries, with the wait capped at 30 seconds) and switches to one chunk at a time for the rest of that read. Parallelism is set per provider. See [[Providers Settings]].

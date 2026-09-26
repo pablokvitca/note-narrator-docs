@@ -21,35 +21,35 @@ Each placeholder in the docs is a `> [!todo] Screenshot needed: ...` callout. To
 
 ## Getting started
 
-- [ ] `hero-panel-and-note.png` on [[index]]. Note in Editing view, panel open mid-playback, margin marker visible
-- [ ] `install-brat-add-plugin.png` on [[Installation]]. BRAT's Add a beta plugin dialog
-- [ ] `settings-api-key.png` on [[Quick Start]]. The provider's API key control filled (hide the key)
-- [ ] `open-panel-ribbon-and-toolbar.png` on [[Quick Start]]. Ribbon icon and toolbar icon called out
-- [ ] `panel-reading.png` on [[Quick Start]]. Panel while reading
+- [x] `hero-panel-and-note.png` on [[index]]. Note in Editing view, panel open mid-playback, margin marker visible
+- [x] `install-brat-add-plugin.png` on [[Installation]]. BRAT's Add a beta plugin dialog
+- [x] `settings-api-key.png` on [[Quick Start]]. The provider's API key control filled (hide the key)
+- [x] `open-panel-ribbon-and-toolbar.png` on [[Quick Start]]. Ribbon icon and toolbar icon called out
+- [x] `panel-reading.png` on [[Quick Start]]. Panel while reading
 
 ## Using
 
-- [ ] `panel-idle.png` on [[The Panel]]. Idle panel with a note open
-- [ ] `panel-buttons-states.png` on [[The Panel]]. Read, Regenerate, Regenerate with new narrator, compact
-- [ ] `panel-generation-bar.png` on [[The Panel]]. Ready, generating, current and empty segments
-- [ ] `toolbar-icon-states.png` on [[The Panel]]. Normal and 0.17 saved states
-- [ ] `playback-controls-row.png` on [[Playback Controls]]. Labeled transport row and sliders
+- [x] `panel-idle.png` on [[The Panel]]. Idle panel with a note open
+- [x] `panel-buttons-states.png` on [[The Panel]]. Read, Regenerate, Regenerate with new narrator, compact
+- [x] `panel-generation-bar.png` on [[The Panel]]. Ready, generating, current and empty segments
+- [x] `toolbar-icon-states.png` on [[The Panel]]. Normal and 0.17 saved states
+- [x] `playback-controls-row.png` on [[Playback Controls]]. Labeled transport row and sliders
 - [ ] `slider-compact-popover.png` on [[Playback Controls]]. Narrow panel pill with popover
-- [ ] `panel-saved-status.png` on [[Saving Audio]]. Up to date and outdated status lines
-- [ ] `highlight-styles.png` on [[Highlighting and Scrolling]]. Margin marker, background, underline
+- [x] `panel-saved-status.png` on [[Saving Audio]]. Up to date and outdated status lines
+- [x] `highlight-margin-marker.png`, `highlight-background.png` and `highlight-underline.png` on [[Highlighting and Scrolling]]. One per style
 - [ ] `background-jobs-list.png` on [[Background Generation]]. One generating, one finished
 
 ## Settings
 
-- [ ] `settings-tab-overview.png` on [[Settings Overview]]. The tab bar, General selected
-- [ ] `settings-general.png` on [[General Settings]] (plus a variant with comment skipping off)
-- [ ] `settings-providers-list.png` on [[Providers Settings]]. Two providers and the + button
-- [ ] `settings-provider-page.png` on [[Providers Settings]]. Connection and Generation groups
-- [ ] `settings-profiles-list.png` on [[Profiles Settings]]. Default narrator dropdown and two profiles
-- [ ] `settings-profile-page.png` on [[Profiles Settings]]. Profile, Voice and Reading overrides groups
-- [ ] `settings-appearance.png` on [[Appearance Settings]]. Highlighting on so dependents are enabled
-- [ ] `settings-performance.png` on [[Performance Settings]]
-- [ ] `settings-files.png` on [[Files Settings]]. Saving on, plus a variant with saving off (greyed out)
+- [x] `settings-tab-overview.png` on [[Settings Overview]]. The tab bar, General selected
+- [x] `settings-general.png` on [[General Settings]] (plus a variant with comment skipping off)
+- [x] `settings-providers-list.png` on [[Providers Settings]]. Two providers and the + button
+- [x] `settings-provider-page.png` on [[Providers Settings]]. Connection and Generation groups
+- [x] `settings-profiles-list.png` on [[Profiles Settings]]. Default narrator dropdown and two profiles
+- [x] `settings-profile-page.png` on [[Profiles Settings]]. Profile, Voice and Reading overrides groups
+- [x] `settings-appearance.png` on [[Appearance Settings]]. Highlighting on so dependents are enabled
+- [x] `settings-performance.png` on [[Performance Settings]]
+- [x] `settings-files.png` on [[Files Settings]]. Saving on, plus a variant with saving off (greyed out)
 
 ## Nice to have
 
