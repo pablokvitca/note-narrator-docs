@@ -23,8 +23,7 @@ If you want a note to finish generating without listening to it now, send it to 
 4. It appears in the panel's **background jobs** list as queued, generating or done. You get a notice when one finishes.
 5. Click a job to play it. Use its small button to discard it (or remove it when done).
 
-> [!todo] Screenshot needed: `background-jobs-list.png`
-> Background jobs with one generating and one finished, in the default minimal style.
+![[background-jobs-list.png]]
 
 ## Separate concurrency
 
