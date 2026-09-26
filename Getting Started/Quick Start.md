@@ -18,8 +18,7 @@ From install to your first read.
 
 Open **Settings, Note Narrator, Providers**, open the **ElevenLabs** provider, and choose your API key from Obsidian's secret storage (or create a new secret). Full detail in [[Setting Up ElevenLabs]].
 
-> [!todo] Screenshot needed: `settings-api-key.png`
-> The ElevenLabs provider's page with the API key control filled in (mask or hide the key).
+![[settings-api-key.png]]
 
 ## 2. Pick a voice and model
 
@@ -29,15 +28,13 @@ Open the **Profiles** tab and the **Default** narrator profile. Choose a **Voice
 
 Click the **audio-lines** icon in the left ribbon, or the same icon in the top-right of a note's toolbar. This only opens the panel. It never starts reading by itself.
 
-> [!todo] Screenshot needed: `open-panel-ribbon-and-toolbar.png`
-> Callouts pointing at the ribbon icon and the note toolbar icon.
+![[open-panel-ribbon-and-toolbar.png]]
 
 ## 4. Click Read
 
 Open a note and press **Read** in the panel. Playback starts as soon as the first chunk is ready.
 
-> [!todo] Screenshot needed: `panel-reading.png`
-> The panel while reading: transport controls, progress bar, generation bar with a few ready segments.
+![[panel-reading.png]]
 
 > [!tip] One step instead of two
 > Run **Read note aloud** from the command palette to open the panel and start reading at once. See [[Commands]].

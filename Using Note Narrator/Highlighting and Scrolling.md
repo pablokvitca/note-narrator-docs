@@ -37,8 +37,17 @@ Both are exact because they follow which chunk is really playing. With Section g
 | **Background wash** | Colours the text background |
 | **Underline** | Underlines the text |
 
-> [!todo] Screenshot needed: `highlight-styles.png`
-> The same paragraph in the three styles: margin marker, background wash, underline.
+**Margin marker**
+
+![[highlight-margin-marker.png]]
+
+**Background wash**
+
+![[highlight-background.png]]
+
+**Underline**
+
+![[highlight-underline.png]]
 
 ## Scroll to current section
 

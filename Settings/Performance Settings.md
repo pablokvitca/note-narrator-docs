@@ -18,8 +18,7 @@ The **Performance** tab controls how quickly playback starts.
 > [!info] Parallel generation moved
 > How many chunks generate at once is now set **per provider**, because rate limits belong to the account. See [[Providers Settings#Generation|the provider's Generation group]].
 
-> [!todo] Screenshot needed: `settings-performance.png`
-> The Performance tab with Quick start on so the dependent settings are enabled.
+![[settings-performance.png]]
 
 | Setting | Default | Greyed out when | What it does |
 | --- | --- | --- | --- |

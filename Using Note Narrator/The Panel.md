@@ -15,8 +15,7 @@ updated: 2026-09-26
 
 The panel lives in the right sidebar. Open it from the ribbon icon, the note toolbar icon, or the **Read note aloud** command. Opening it never starts generation on its own.
 
-> [!todo] Screenshot needed: `panel-idle.png`
-> The panel with a note open and nothing playing. Should show the note title, narrator dropdown, note stats, and the Play saved / Read / Background buttons.
+![[panel-idle.png]]
 
 ## Layout, top to bottom
 
@@ -44,8 +43,7 @@ The panel lives in the right sidebar. Open it from the ribbon icon, the note too
 
 The **Compact buttons** setting turns these into icon-only buttons with tooltips. Narrow panels do this automatically.
 
-> [!todo] Screenshot needed: `panel-buttons-states.png`
-> Side by side: Read, Regenerate, Regenerate with new narrator, and the compact icon-only version.
+![[panel-buttons-states.png]]
 
 ## The generation bar
 
@@ -56,8 +54,7 @@ A segmented bar with one segment per chunk:
 - The chunk **currently playing** is outlined.
 - Chunks not started yet are empty.
 
-> [!todo] Screenshot needed: `panel-generation-bar.png`
-> Close-up of the bar with ready, generating, current and empty segments.
+![[panel-generation-bar.png]]
 
 ## Time readout
 
@@ -74,5 +71,4 @@ Each note has an audio-lines icon in its top-right toolbar (next to the **⋯** 
 > [!info] Coming in 0.17
 > In the 0.17 beta the toolbar icon changes to a waveform with a check badge when the note has up-to-date saved audio, so you can tell at a glance.
 
-> [!todo] Screenshot needed: `toolbar-icon-states.png`
-> The note toolbar icon in its normal state and (0.17) its saved-audio state.
+![[toolbar-icon-states.png]]

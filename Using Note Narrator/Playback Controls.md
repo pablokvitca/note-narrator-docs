@@ -13,8 +13,7 @@ updated: 2026-09-26
 
 # Playback Controls
 
-> [!todo] Screenshot needed: `playback-controls-row.png`
-> The transport row with every button labeled, plus the speed and volume sliders below it.
+![[playback-controls-row.png]]
 
 ## Transport row
 
