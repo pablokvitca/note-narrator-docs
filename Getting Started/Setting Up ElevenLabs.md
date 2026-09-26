@@ -29,6 +29,9 @@ Adding a provider with **+** also creates a narrator profile called **Default (p
 > [!info] Where the key lives
 > The key is stored with Obsidian's built-in [secret storage](https://docs.obsidian.md/plugins/guides/secret-storage), not in the plugin's `data.json`. The plugin only remembers the **name** of the secret to look up (`elevenlabs-api-key` by default), so the key never appears in your vault files or your synced settings, and other plugins can share the same secret.
 
+> [!info] Your plan's terms apply
+> Free ElevenLabs accounts may use the service for non-commercial purposes only. See [[Privacy and Network Use]] for the terms that apply to you.
+
 ## Voices
 
 A narrator profile's **Voice** dropdown lists voices from its provider's account, **the first 100**. Use the refresh button after adding a key or creating a voice. To keep the panel tidy, turn off **Show in panel dropdown** for profiles you rarely use. See [[Profiles Settings]].
