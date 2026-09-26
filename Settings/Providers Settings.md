@@ -21,16 +21,17 @@ A **provider** is a named connection to a text to speech service: its **type**, 
 
 ## The provider list
 
-- **+** adds a provider. On mobile it is an "Add provider" row below the list.
+- **+** adds a provider, and also adds a narrator profile for it named **Default (provider name)**, so a new provider is usable straight away. On mobile it is an "Add provider" row below the list.
 - Select a provider to open its page.
-- Drag the handle to reorder. Use the delete button (or the Delete key) to remove one.
+- Drag the handle to reorder.
+- To remove a provider, open it and press **Delete provider** at the bottom of its page. You can also select a row in the list and press the Delete key.
 - A provider with **no API key** shows a warning marker.
 
 > [!info] Several providers of the same type
 > You can add more than one provider of the same type. For example, two ElevenLabs providers for a personal and a work account, each with its own API key and its own rate limits. Narrator profiles then pick whichever account they should use.
 
 > [!warning] Deleting a provider deletes its profiles
-> If narrator profiles use the provider, you are asked to confirm, and those profiles are deleted with it.
+> If narrator profiles use the provider, you are asked to confirm, and those profiles are deleted with it. That includes the automatic **Default (provider name)** profile.
 
 ## A provider's page
 

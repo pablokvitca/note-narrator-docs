@@ -30,9 +30,10 @@ The **Default narrator** dropdown at the top of the tab picks the profile used f
 
 ## The profile list
 
-- **+** adds a profile using your first provider. Change its provider on its page.
+- **+** adds a profile using your first provider. Change its provider on its page. Adding a provider on the Providers tab also adds a profile called **Default (provider name)**.
 - Select a profile to open its page. The current default shows a "Default" marker, and a profile whose provider has no API key shows a warning marker.
-- Drag to reorder, or delete with the delete button. You cannot delete your last profile.
+- Drag to reorder.
+- To remove a profile, open it and press **Delete narrator profile** at the bottom of its page (or select a row and press the Delete key). You cannot delete your last profile, so the button is greyed out then.
 
 ## A profile's page
 
@@ -47,6 +48,7 @@ The **Default narrator** dropdown at the top of the tab picks the profile used f
 | **Provider** | Which provider generates the audio. Switching to a provider of another type resets the voice settings |
 | **Show in panel dropdown** | Offer the profile in the panel's Narrator dropdown. The active profile is always shown, even if this is off |
 | **Use as default narrator** | Makes this the active profile |
+| **Delete narrator profile** | At the bottom of the page. Removes the profile |
 
 ### Voice (ElevenLabs)
 
