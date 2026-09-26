@@ -7,7 +7,7 @@ tags:
   - appearance
   - highlighting
 publish: true
-permalink: settings/appearance
+permalink: note-narrator/settings/appearance
 plugin-version: 0.17.0
 updated: 2026-09-26
 ---

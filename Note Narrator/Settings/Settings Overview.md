@@ -5,7 +5,7 @@ tags:
   - note-narrator
   - settings
 publish: true
-permalink: settings/overview
+permalink: note-narrator/settings/overview
 plugin-version: 0.17.0
 updated: 2026-09-26
 ---

@@ -6,7 +6,7 @@ tags:
   - usage
   - playback
 publish: true
-permalink: using/playback-controls
+permalink: note-narrator/using/playback-controls
 plugin-version: 0.17.0
 updated: 2026-09-26
 ---

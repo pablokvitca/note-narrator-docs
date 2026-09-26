@@ -5,7 +5,7 @@ tags:
   - note-narrator
   - usage
 publish: true
-permalink: using/reading-a-note
+permalink: note-narrator/using/reading-a-note
 plugin-version: 0.17.0
 updated: 2026-09-26
 ---

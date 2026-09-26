@@ -6,7 +6,7 @@ tags:
   - reference
   - platforms
 publish: true
-permalink: reference/supported-platforms
+permalink: note-narrator/reference/supported-platforms
 plugin-version: 0.17.0
 updated: 2026-09-26
 ---

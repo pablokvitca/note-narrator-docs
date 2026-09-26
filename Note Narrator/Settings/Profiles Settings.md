@@ -6,7 +6,7 @@ tags:
   - settings
   - profiles
 publish: true
-permalink: settings/profiles
+permalink: note-narrator/settings/profiles
 plugin-version: 0.17.0
 updated: 2026-09-26
 ---

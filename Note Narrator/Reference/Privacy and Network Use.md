@@ -6,7 +6,7 @@ tags:
   - reference
   - privacy
 publish: true
-permalink: reference/privacy
+permalink: note-narrator/reference/privacy
 plugin-version: 0.17.0
 updated: 2026-09-26
 ---
