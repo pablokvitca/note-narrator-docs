@@ -6,7 +6,7 @@ tags:
   - usage
   - performance
 publish: true
-permalink: using/long-notes-and-chunking
+permalink: note-narrator/using/long-notes-and-chunking
 plugin-version: 0.17.0
 updated: 2026-09-26
 ---

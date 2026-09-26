@@ -6,7 +6,7 @@ tags:
   - usage
   - panel
 publish: true
-permalink: using/the-panel
+permalink: note-narrator/using/the-panel
 plugin-version: 0.17.0
 updated: 2026-09-26
 ---

@@ -6,7 +6,7 @@ tags:
   - getting-started
   - elevenlabs
 publish: true
-permalink: getting-started/setting-up-elevenlabs
+permalink: note-narrator/getting-started/setting-up-elevenlabs
 plugin-version: 0.17.0
 updated: 2026-09-26
 ---

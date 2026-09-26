@@ -12,7 +12,7 @@ updated: 2026-09-26
 
 Each placeholder in the docs is a `> [!todo] Screenshot needed: ...` callout. To fill one in:
 
-1. Capture the image and save it in `Screenshots/` with the exact filename below (PNG, ideally 2x, cropped to the relevant UI, light and dark theme both if practical).
+1. Capture the image and save it in the plugin's `Screenshots/` folder (for Note Narrator: `Note Narrator/Screenshots/`) with the exact filename below (PNG, ideally 2x, cropped to the relevant UI, light and dark theme both if practical).
 2. In the page, replace the whole `[!todo]` callout with `![[filename.png]]` and, if useful, a caption line.
 3. Tick it off here.
 
@@ -21,7 +21,7 @@ Each placeholder in the docs is a `> [!todo] Screenshot needed: ...` callout. To
 
 ## Getting started
 
-- [x] `hero-panel-and-note.png` on [[index]]. Note in Editing view, panel open mid-playback, margin marker visible
+- [x] `hero-panel-and-note.png` on [[Note Narrator]]. Note in Editing view, panel open mid-playback, margin marker visible
 - [x] `install-brat-add-plugin.png` on [[Installation]]. BRAT's Add a beta plugin dialog
 - [x] `settings-api-key.png` on [[Quick Start]]. The provider's API key control filled (hide the key)
 - [x] `open-panel-ribbon-and-toolbar.png` on [[Quick Start]]. Ribbon icon and toolbar icon called out

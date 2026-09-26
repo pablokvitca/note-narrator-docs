@@ -6,7 +6,7 @@ tags:
   - usage
   - background
 publish: true
-permalink: using/background-generation
+permalink: note-narrator/using/background-generation
 plugin-version: 0.17.0
 updated: 2026-09-26
 ---

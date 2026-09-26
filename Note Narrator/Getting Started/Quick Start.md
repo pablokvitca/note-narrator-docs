@@ -5,7 +5,7 @@ tags:
   - note-narrator
   - getting-started
 publish: true
-permalink: getting-started/quick-start
+permalink: note-narrator/getting-started/quick-start
 plugin-version: 0.17.0
 updated: 2026-09-26
 ---

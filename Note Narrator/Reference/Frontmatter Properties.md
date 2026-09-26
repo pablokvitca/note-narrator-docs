@@ -6,7 +6,7 @@ tags:
   - reference
   - saved-audio
 publish: true
-permalink: reference/frontmatter-properties
+permalink: note-narrator/reference/frontmatter-properties
 plugin-version: 0.17.0
 updated: 2026-09-26
 ---

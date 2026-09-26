@@ -5,7 +5,7 @@ tags:
   - note-narrator
   - roadmap
 publish: true
-permalink: roadmap
+permalink: note-narrator/roadmap
 plugin-version: 0.17.0
 updated: 2026-09-26
 ---

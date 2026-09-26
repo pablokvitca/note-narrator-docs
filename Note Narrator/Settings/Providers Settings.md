@@ -7,7 +7,7 @@ tags:
   - providers
   - elevenlabs
 publish: true
-permalink: settings/providers
+permalink: note-narrator/settings/providers
 plugin-version: 0.17.0
 updated: 2026-09-26
 ---

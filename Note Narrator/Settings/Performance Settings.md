@@ -6,7 +6,7 @@ tags:
   - settings
   - performance
 publish: true
-permalink: settings/performance
+permalink: note-narrator/settings/performance
 plugin-version: 0.17.0
 updated: 2026-09-26
 ---

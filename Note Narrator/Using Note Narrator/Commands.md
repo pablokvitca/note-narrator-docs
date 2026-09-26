@@ -6,7 +6,7 @@ tags:
   - usage
   - commands
 publish: true
-permalink: using/commands
+permalink: note-narrator/using/commands
 plugin-version: 0.17.0
 updated: 2026-09-26
 ---

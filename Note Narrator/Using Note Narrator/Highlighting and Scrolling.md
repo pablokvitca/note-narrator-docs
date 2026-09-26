@@ -6,7 +6,7 @@ tags:
   - usage
   - highlighting
 publish: true
-permalink: using/highlighting-and-scrolling
+permalink: note-narrator/using/highlighting-and-scrolling
 plugin-version: 0.17.0
 updated: 2026-09-26
 ---

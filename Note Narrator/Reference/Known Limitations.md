@@ -6,7 +6,7 @@ tags:
   - reference
   - limitations
 publish: true
-permalink: reference/known-limitations
+permalink: note-narrator/reference/known-limitations
 plugin-version: 0.17.0
 updated: 2026-09-26
 ---

@@ -6,7 +6,7 @@ tags:
   - reference
   - faq
 publish: true
-permalink: reference/troubleshooting
+permalink: note-narrator/reference/troubleshooting
 plugin-version: 0.17.0
 updated: 2026-09-26
 ---
