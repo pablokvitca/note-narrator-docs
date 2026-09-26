@@ -22,7 +22,7 @@ updated: 2026-09-26
 - Full-audio time display modes with "+N parts" for ungenerated chunks
 - Highlight while reading (chunk and section granularity, three styles) and a scroll to current section button
 - Skip sections by heading regex, and separate Markdown comment toggles
-- Saved audio: up to date tracking, per-chunk parts for Previous/Next during Play Saved, auto-generate on open
+- Saved audio: up to date tracking, per-chunk parts for Previous/Next during Play saved, auto-generate on open
 - Mobile support: tested on iPhone, iPad, iPad mini and visionOS, with touch-sized controls
 - Configurable rewind and skip amounts and compact buttons
 

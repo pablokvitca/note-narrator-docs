@@ -30,7 +30,7 @@ Left to right:
 | **Stop** | Ends the read |
 | **Scroll to current section** | Scrolls the note to the section playing now. Set apart from the others because it moves the editor, not the audio |
 
-Previous and Next part move immediately without waiting for the current chunk to finish. They also work during **Play Saved**, moving between the saved file's own parts (see [[Saving Audio]]).
+Previous and Next part move immediately without waiting for the current chunk to finish. They also work during **Play saved**, moving between the saved file's own parts (see [[Saving Audio]]).
 
 The rewind and skip amounts are separate dropdowns (5 to 60 seconds). The icons show the chosen number. See [[Appearance Settings]].
 

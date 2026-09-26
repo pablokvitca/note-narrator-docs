@@ -45,4 +45,4 @@ ElevenLabs limits how much text one request can hold, so Note Narrator splits a 
 
 ## Saved audio and chunks
 
-Saved audio remembers its own chunk boundaries so Previous/Next part and highlighting keep working during Play Saved. If chunk-affecting settings changed since generation, the file plays as one non-navigable piece until you regenerate. See [[Saving Audio]] and [[Known Limitations]].
+Saved audio remembers its own chunk boundaries so Previous/Next part and highlighting keep working during Play saved. If chunk-affecting settings changed since generation, the file plays as one non-navigable piece until you regenerate. See [[Saving Audio]] and [[Known Limitations]].

@@ -33,10 +33,10 @@ With linking on, the note gets frontmatter properties recording the audio link, 
 The hash lets the panel tell you whether the audio still matches the note:
 
 > [!success] Saved audio is up to date
-> The note has not changed since the audio was generated. **Play Saved** is ready.
+> The note has not changed since the audio was generated. **Play saved** is ready.
 
 > [!warning] Saved audio is outdated
-> The note has changed. **Read** becomes **Regenerate**. Play Saved still plays the old audio.
+> The note has changed. **Read** becomes **Regenerate**. Play saved still plays the old audio.
 
 > [!note] Everything counts
 > The hash covers the note's full content, even if you only read a selection, so any edit marks the audio outdated. Note Narrator's own properties are always excluded. Add other properties (for example a last-modified timestamp another plugin updates) to **Extra properties to exclude from staleness hashing**.
@@ -46,10 +46,10 @@ The hash lets the panel tell you whether the audio still matches the note:
 
 ## Playing saved audio
 
-**Play Saved** plays the file immediately with no generation. Previous/Next part, highlighting and scroll-to-current also work because the saved chunk durations let the file be sliced back into parts.
+**Play saved** plays the file immediately with no generation. Previous/Next part, highlighting and scroll-to-current also work because the saved chunk durations let the file be sliced back into parts.
 
 > [!caution] Only while up to date
-> Part navigation and highlighting during Play Saved need the note to be up to date, and the chunk count to still match. If reading or chunking settings changed since the audio was made (chunker style, heading depth, skip patterns, quick start, model), the file plays as one piece. Regenerate to fix it.
+> Part navigation and highlighting during Play saved need the note to be up to date, and the chunk count to still match. If reading or chunking settings changed since the audio was made (chunker style, heading depth, skip patterns, quick start, model), the file plays as one piece. Regenerate to fix it.
 
 ## Regenerating
 

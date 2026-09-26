@@ -46,9 +46,9 @@ The **Scroll to current section** button (on by default) sits at the end of the 
 
 It works per section, not per chunk, because a chunk is an internal request boundary, not something you navigate by.
 
-## During Play Saved
+## During Play saved
 
-Both features also work during **Play Saved**, as long as the note is up to date with the audio. See [[Saving Audio]].
+Both features also work during **Play saved**, as long as the note is up to date with the audio. See [[Saving Audio]].
 
 ## Limits
 

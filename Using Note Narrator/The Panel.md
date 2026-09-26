@@ -16,7 +16,7 @@ updated: 2026-09-26
 The panel lives in the right sidebar. Open it from the ribbon icon, the note toolbar icon, or the **Read note aloud** command. Opening it never starts generation on its own.
 
 > [!todo] Screenshot needed: `panel-idle.png`
-> The panel with a note open and nothing playing. Should show the note title, narrator dropdown, note stats, and the Play Saved / Read / Background buttons.
+> The panel with a note open and nothing playing. Should show the note title, narrator dropdown, note stats, and the Play saved / Read / Background buttons.
 
 ## Layout, top to bottom
 
@@ -31,13 +31,13 @@ The panel lives in the right sidebar. Open it from the ribbon icon, the note too
 9. **Background jobs.** Notes generating or finished in the background. See [[Background Generation]].
 
 > [!note] Disabled, not hidden
-> Buttons that do not apply right now (for example Previous part on a single-chunk read, or Play Saved when there is no saved audio) are shown disabled rather than removed, so the layout does not jump around.
+> Buttons that do not apply right now (for example Previous part on a single-chunk read, or Play saved when there is no saved audio) are shown disabled rather than removed, so the layout does not jump around.
 
 ## Action buttons
 
 | Button | What it does |
 | --- | --- |
-| **Play Saved** | Plays the note's existing saved audio with no regeneration. |
+| **Play saved** | Plays the note's existing saved audio with no regeneration. |
 | **Read** | Generates and plays the note. Relabels itself to **Regenerate** when the note changed since the audio was made, and to **Regenerate with new narrator** when the selected profile's voice settings differ from the saved audio's. While busy it reads "Reading". |
 | **Cancel** | Stops an in-progress generation. |
 | **Background** | Moves the current read to the background so it keeps generating. See [[Background Generation]]. |
