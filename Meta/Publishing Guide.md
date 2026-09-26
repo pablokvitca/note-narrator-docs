@@ -24,7 +24,7 @@ These docs are an Obsidian vault kept in git and published with **Obsidian Publi
 ## Obsidian Publish setup
 
 1. Open **Publish changes** and select the notes to publish. Everything with `publish: true` should be selected. Notes with `publish: false` (this folder) must stay unpublished.
-2. `index.md` at the vault root is the home page for all plugins (`permalink: /`), and each plugin has its own folder with a home page named after the plugin (for example `Note Narrator/Note Narrator.md`, `permalink: note-narrator`). Confirm the home page under Site options.
+2. `index.md` at the vault root is the home page for all plugins. It has **no `permalink`**: set it as the home page under **Publish changes → Site options → Home page**, and select it (and everything else with `publish: true`) for publishing. Until a home page is set and published, the site shows the default "Welcome to <site name>" page with no content. Each plugin has its own folder with a home page named after the plugin (for example `Note Narrator/Note Narrator.md`, `permalink: note-narrator`).
 3. Each page has a `permalink` for a stable, readable URL. Keep them when renaming files so links do not break.
 4. Use only features Publish supports: standard Markdown, wikilinks, callouts, tables, embeds of published files. Do not use Dataview or other community plugin syntax.
 

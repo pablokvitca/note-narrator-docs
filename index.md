@@ -7,7 +7,6 @@ aliases:
   - Home
   - PK Plugins docs
 publish: true
-permalink: /
 updated: 2026-09-26
 ---
 
