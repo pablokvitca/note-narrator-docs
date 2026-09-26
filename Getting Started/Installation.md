@@ -6,7 +6,7 @@ tags:
   - getting-started
 publish: true
 permalink: getting-started/installation
-plugin-version: 0.16.1
+plugin-version: 0.17.0
 updated: 2026-09-26
 ---
 

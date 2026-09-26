@@ -21,6 +21,8 @@ Note Narrator generates speech with ElevenLabs, so you need an account with an A
 2. In Obsidian, open **Settings, Note Narrator, Providers** and open (or add) an ElevenLabs provider.
 3. Under **API key**, pick an existing secret or create a new one and paste the key.
 
+Adding a provider with **+** also creates a narrator profile called **Default (provider name)** for it, so you can pick a voice and read straight away.
+
 > [!tip] Two accounts?
 > Add a second ElevenLabs provider with its own key (for example personal and work), then point different narrator profiles at each. See [[Providers Settings]].
 
