@@ -36,8 +36,7 @@ updated: 2026-09-26
 > [!tip] Want betas?
 > Stable releases are picked up automatically. To try in-development builds, enable "beta versions" for this plugin in BRAT's settings.
 
-> [!todo] Screenshot needed: `install-brat-add-plugin.png`
-> BRAT's "Add a beta plugin" dialog with `pablokvitca/note-narrator` entered.
+![[install-brat-add-plugin.png]]
 
 ## Option 2: Manual install
 

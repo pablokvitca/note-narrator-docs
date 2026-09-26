@@ -16,8 +16,7 @@ updated: 2026-09-26
 
 A **provider** is a named connection to a text to speech service: its **type**, its **credentials**, and how many chunks may generate at once. Narrator profiles choose which provider they use. See [[Profiles Settings]].
 
-> [!todo] Screenshot needed: `settings-providers-list.png`
-> The Providers tab with two providers in the list and the **+** button visible.
+![[settings-providers-list.png]]
 
 ## The provider list
 
@@ -35,8 +34,7 @@ A **provider** is a named connection to a text to speech service: its **type**, 
 
 ## A provider's page
 
-> [!todo] Screenshot needed: `settings-provider-page.png`
-> An ElevenLabs provider's page: Connection and Generation groups.
+![[settings-provider-page.png]]
 
 ### Connection
 

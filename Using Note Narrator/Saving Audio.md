@@ -41,8 +41,7 @@ The hash lets the panel tell you whether the audio still matches the note:
 > [!note] Everything counts
 > The hash covers the note's full content, even if you only read a selection, so any edit marks the audio outdated. Note Narrator's own properties are always excluded. Add other properties (for example a last-modified timestamp another plugin updates) to **Extra properties to exclude from staleness hashing**.
 
-> [!todo] Screenshot needed: `panel-saved-status.png`
-> The saved-audio status line in both states (up to date in green, outdated in amber), with the small delete button.
+![[panel-saved-status.png]]
 
 ## Playing saved audio
 

@@ -20,8 +20,7 @@ Note Narrator is an Obsidian plugin that **reads your notes aloud** using text t
 > [!tip] New here?
 > Start with [[Installation]], then follow the [[Quick Start]]. You will be listening to a note in a few minutes.
 
-> [!todo] Screenshot needed: `hero-panel-and-note.png`
-> A note open in Editing view with the Note Narrator panel in the right sidebar, mid-playback, with the highlight margin marker visible.
+![[hero-panel-and-note.png]]
 
 ## What it does
 

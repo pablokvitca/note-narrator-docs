@@ -21,8 +21,7 @@ A **narrator profile** is a named way of reading. It has:
 - a **Show in panel dropdown** toggle
 - optional **reading overrides** of the [[General Settings|General]] defaults
 
-> [!todo] Screenshot needed: `settings-profiles-list.png`
-> The Profiles tab: the Default narrator dropdown, and a list with two profiles, one marked "Default".
+![[settings-profiles-list.png]]
 
 ## Default narrator
 
@@ -37,8 +36,7 @@ The **Default narrator** dropdown at the top of the tab picks the profile used f
 
 ## A profile's page
 
-> [!todo] Screenshot needed: `settings-profile-page.png`
-> A profile's page showing the Profile, Voice and Reading overrides groups.
+![[settings-profile-page.png]]
 
 ### Profile
 

@@ -16,8 +16,7 @@ updated: 2026-09-26
 
 The **Appearance** tab has two groups: **Panel** and **Highlighting**.
 
-> [!todo] Screenshot needed: `settings-appearance.png`
-> The Appearance tab showing both groups, with **Highlight while reading** on.
+![[settings-appearance.png]]
 
 ## Panel
 
