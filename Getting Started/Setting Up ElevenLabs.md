@@ -1,0 +1,50 @@
+---
+title: Setting Up ElevenLabs
+description: Create an ElevenLabs API key, store it safely in Obsidian, and choose a voice and model.
+tags:
+  - note-narrator
+  - getting-started
+  - elevenlabs
+publish: true
+permalink: getting-started/setting-up-elevenlabs
+plugin-version: 0.16.1
+updated: 2026-09-26
+---
+
+# Setting Up ElevenLabs
+
+Note Narrator generates speech with ElevenLabs, so you need an account with an API key.
+
+## API key
+
+1. Sign in at [elevenlabs.io](https://elevenlabs.io) and create an API key in your account settings.
+2. In Obsidian, open **Settings, Note Narrator, ElevenLabs, API key**.
+3. Pick an existing secret or create a new one and paste the key.
+
+> [!info] Where the key lives
+> The key is stored with Obsidian's built-in [secret storage](https://docs.obsidian.md/plugins/guides/secret-storage), not in the plugin's `data.json`. The plugin only remembers the **name** of the secret to look up (`elevenlabs-api-key` by default), so the key never appears in your vault files or your synced settings, and other plugins can share the same secret.
+
+## Voices
+
+The **Voice** dropdown lists voices from your account, **the first 100**. Use the refresh button after adding a key or creating a voice. To keep the panel tidy, choose a shortlist under [[Panel Voices Settings]].
+
+## Models
+
+| Model | Character limit per request | Notes |
+| --- | --- | --- |
+| **Eleven Multilingual v2** (default) | 10,000 | Balanced quality and cost, many languages |
+| **Eleven Flash v2.5** | 40,000 | Fastest and cheapest, fewer characters per request |
+| **Eleven v3** (research preview) | 5,000 | Most expressive, but ElevenLabs labels it a research preview |
+
+> [!caution] Eleven v3 is a research preview
+> ElevenLabs notes v3 can be more prone to mispronunciations or invented words than Multilingual v2, and Professional Voice Clones are not fully optimized for it yet.
+
+The character limit is the size of one request. Longer notes are split into several chunks automatically. See [[Long Notes and Chunking]].
+
+## Voice tuning
+
+**Stability** and **Similarity boost** shape how the voice sounds. See [[ElevenLabs Settings]] for what each does.
+
+## Rate limits
+
+If ElevenLabs answers with a rate limit (HTTP 429), Note Narrator retries automatically with exponential backoff (up to three attempts) and switches to one chunk at a time for the rest of that read. See [[Performance Settings]].

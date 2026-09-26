@@ -1,0 +1,53 @@
+---
+title: Installation
+description: How to install Note Narrator with BRAT or manually, and what Obsidian version you need.
+tags:
+  - note-narrator
+  - getting-started
+publish: true
+permalink: getting-started/installation
+plugin-version: 0.16.1
+updated: 2026-09-26
+---
+
+# Installation
+
+> [!warning] Not in the community plugin store yet
+> Note Narrator is not published to Obsidian's community plugin directory yet (see [[Roadmap]]). Install it with BRAT or by hand.
+
+## Requirements
+
+| Requirement | Details |
+| --- | --- |
+| Obsidian | **1.13.0 or newer** (the settings tab uses the declarative settings API) |
+| Platforms | Desktop and mobile (iPhone, iPad, iPad mini and visionOS have been tested) |
+| Account | An [ElevenLabs](https://elevenlabs.io) account and API key |
+| Network | Internet access to `api.elevenlabs.io` when you read or regenerate. See [[Privacy and Network Use]] |
+
+## Option 1: BRAT (recommended)
+
+[BRAT](https://github.com/TfTHacker/obsidian42-brat) installs plugins straight from GitHub and updates them for you.
+
+1. Install and enable **Obsidian42 - BRAT** from Community plugins.
+2. Open the command palette and run **BRAT: Add a beta plugin for testing**.
+3. Enter `pablokvitca/note-narrator`.
+4. Enable **Note Narrator** under Settings, Community plugins.
+
+> [!tip] Want betas?
+> Stable releases are picked up automatically. To try in-development builds, enable "beta versions" for this plugin in BRAT's settings.
+
+> [!todo] Screenshot needed: `install-brat-add-plugin.png`
+> BRAT's "Add a beta plugin" dialog with `pablokvitca/note-narrator` entered.
+
+## Option 2: Manual install
+
+1. Download `main.js`, `manifest.json` and `styles.css` from the latest release on GitHub.
+2. Copy them into `YourVault/.obsidian/plugins/note-narrator/`.
+3. Restart Obsidian, then enable **Note Narrator** under Settings, Community plugins.
+
+> [!note] Folder name matters
+> The folder must be named `note-narrator`, matching the plugin id in `manifest.json`.
+
+## Next step
+
+Continue to the [[Quick Start]].

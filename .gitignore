@@ -1,0 +1,9 @@
+# Obsidian per-device/per-session state, not part of the shared vault config.
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/hotkeys.json
+.trash/
+
+# macOS
+.DS_Store

@@ -1,0 +1,50 @@
+---
+title: Quick Start
+description: Go from a fresh install to hearing your first note read aloud in five steps.
+tags:
+  - note-narrator
+  - getting-started
+publish: true
+permalink: getting-started/quick-start
+plugin-version: 0.16.1
+updated: 2026-09-26
+---
+
+# Quick Start
+
+From install to your first read.
+
+## 1. Add your ElevenLabs API key
+
+Open **Settings, Note Narrator** and, under **ElevenLabs**, choose your API key from Obsidian's secret storage (or create a new secret). Full detail in [[Setting Up ElevenLabs]].
+
+> [!todo] Screenshot needed: `settings-api-key.png`
+> The ElevenLabs settings group with the API key control filled in (mask or hide the key).
+
+## 2. Pick a voice and model
+
+Still in settings, choose a **Voice** (fetched from your account) and a **Model**. The defaults work well for most notes: Eleven Multilingual v2 is a solid balance of quality and cost.
+
+## 3. Open the panel
+
+Click the **audio-lines** icon in the left ribbon, or the same icon in the top-right of a note's toolbar. This only opens the panel. It never starts reading by itself.
+
+> [!todo] Screenshot needed: `open-panel-ribbon-and-toolbar.png`
+> Callouts pointing at the ribbon icon and the note toolbar icon.
+
+## 4. Click Read
+
+Open a note and press **Read** in the panel. Playback starts as soon as the first chunk is ready.
+
+> [!todo] Screenshot needed: `panel-reading.png`
+> The panel while reading: transport controls, progress bar, generation bar with a few ready segments.
+
+> [!tip] One step instead of two
+> Run **Read note aloud** from the command palette to open the panel and start reading at once. See [[Commands]].
+
+## 5. Optional: keep the audio
+
+Turn on **Save generated audio to a file** and **Link saved audio in the note** to keep an `.mp3` per note and replay it for free. See [[Saving Audio]].
+
+> [!warning] Reading uses ElevenLabs credits
+> Every generated chunk costs credits on your ElevenLabs plan. Saved audio plays back without spending any more.

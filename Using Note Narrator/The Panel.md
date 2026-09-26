@@ -1,0 +1,78 @@
+---
+title: The Panel
+description: A tour of the Note Narrator sidebar panel, including the idle layout, buttons, progress display and menu.
+tags:
+  - note-narrator
+  - usage
+  - panel
+publish: true
+permalink: using/the-panel
+plugin-version: 0.16.1
+updated: 2026-09-26
+---
+
+# The Panel
+
+The panel lives in the right sidebar. Open it from the ribbon icon, the note toolbar icon, or the **Read note aloud** command. Opening it never starts generation on its own.
+
+> [!todo] Screenshot needed: `panel-idle.png`
+> The panel with a note open and nothing playing. Should show the note title, voice dropdown, note stats, and the Play Saved / Read / Background buttons.
+
+## Layout, top to bottom
+
+1. **Selected note.** A "Read: Note title" line for the note you are viewing. The panel follows the active note as you switch between notes. If a read is already in progress for a different note, a "Currently reading: Other note" line appears under it, so switching notes never hides what is playing.
+2. **Voice.** Dropdown of voices, limited to your shortlist if you set one in [[Panel Voices Settings]].
+3. **Note stats.** Total characters, total chunks, and approximate average characters and words per chunk, computed as soon as a note is open, before you click anything.
+4. **Saved audio status.** Only when the note has linked audio. Shows a green "up to date" line or an amber "outdated" warning, with a small delete button for the saved file. See [[Saving Audio]].
+5. **Action buttons.** See below.
+6. **Status, time and progress.** Elapsed, total and remaining time, "Part X of Y, Z% complete", and the generation bar.
+7. **Playback controls.** See [[Playback Controls]].
+8. **Speed and volume.** Live sliders, each can be hidden in settings. See [[Performance Settings]].
+9. **Background jobs.** Notes generating or finished in the background. See [[Background Generation]].
+
+> [!note] Disabled, not hidden
+> Buttons that do not apply right now (for example Previous part on a single-chunk read, or Play Saved when there is no saved audio) are shown disabled rather than removed, so the layout does not jump around.
+
+## Action buttons
+
+| Button | What it does |
+| --- | --- |
+| **Play Saved** | Plays the note's existing saved audio with no regeneration. |
+| **Read** | Generates and plays the note. Relabels itself to **Regenerate** when the note changed since the audio was made, and to **Regenerate with new voice** when the selected voice differs from the saved one. While busy it reads "Reading". |
+| **Cancel** | Stops an in-progress generation. |
+| **Background** | Moves the current read to the background so it keeps generating. See [[Background Generation]]. |
+
+The **Compact buttons** setting turns these into icon-only buttons with tooltips. Narrow panels do this automatically.
+
+> [!todo] Screenshot needed: `panel-buttons-states.png`
+> Side by side: Read, Regenerate, Regenerate with new voice, and the compact icon-only version.
+
+## The generation bar
+
+A segmented bar with one segment per chunk:
+
+- **Ready** chunks are filled.
+- Chunks **generating right now** pulse.
+- The chunk **currently playing** is outlined.
+- Chunks not started yet are empty.
+
+> [!todo] Screenshot needed: `panel-generation-bar.png`
+> Close-up of the bar with ready, generating, current and empty segments.
+
+## Time readout
+
+Choose what the times mean with the **Time display** setting: full totals across the whole read (unfinished parts shown as "+N parts"), just the current part, or both. See [[Performance Settings]].
+
+## The title-bar menu
+
+The **⋮** menu in the panel's title bar has **Clear Note Narrator files**, which deletes a note's linked audio file and removes the properties. You are asked to confirm first. You can hide it with the **Show "clear Note Narrator files"** setting. See [[Save Audio Settings]].
+
+## The note toolbar icon
+
+Each note has an audio-lines icon in its top-right toolbar (next to the **⋯** menu). It opens the panel.
+
+> [!info] Coming in 0.17
+> In the 0.17 beta the toolbar icon changes to a waveform with a check badge when the note has up-to-date saved audio, so you can tell at a glance.
+
+> [!todo] Screenshot needed: `toolbar-icon-states.png`
+> The note toolbar icon in its normal state and (0.17) its saved-audio state.

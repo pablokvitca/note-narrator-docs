@@ -1,0 +1,48 @@
+---
+title: Long Notes and Chunking
+description: How long notes are split into chunks, quick start, parallel generation and rate limit handling.
+tags:
+  - note-narrator
+  - usage
+  - performance
+publish: true
+permalink: using/long-notes-and-chunking
+plugin-version: 0.16.1
+updated: 2026-09-26
+---
+
+# Long Notes and Chunking
+
+ElevenLabs limits how much text one request can hold, so Note Narrator splits a note into **chunks**, generates them, and plays them in order.
+
+## Text chunker
+
+| Style | How it splits |
+| --- | --- |
+| **Markdown-aware** (default) | By heading section first (up to the max heading depth), then by sentence inside each section |
+| **Sentence-only** | Ignores headings and packs sentences up to the character limit |
+
+**Max heading depth** (default 2) decides which headings start a new section: 1 is `#`, 2 is `##` and shallower, up to 6. Deeper headings stay inside their section.
+
+> [!example] Skipping a section
+> With the Markdown-aware chunker, add `Changelog` to **Skip sections by heading** and any section whose heading matches is never read, so its parts also disappear from the generation bar.
+
+## Start playing sooner
+
+- **Start playback immediately** (on): play as soon as the first chunk is ready instead of waiting for the whole note.
+- **Quick start** (on): make that first chunk deliberately short (including the title and properties preamble) so audio starts faster. Size it in **Words** (default 150) or **Characters** (default 750).
+
+> [!tip] Long notes
+> Quick start matters most on long notes. The first sentence or two are generated alone, and everything else generates while you listen.
+
+## Parallel generation
+
+- **Generate chunks in parallel** (on): more than one chunk at a time. **Max parallel chunk generation** sets the window (default 2, recommended 2 to 5).
+- More parallelism finishes long notes sooner, but makes more simultaneous requests and hits rate limits sooner.
+
+> [!warning] Rate limits
+> On an HTTP 429 from ElevenLabs, requests retry with exponential backoff (up to 3 attempts) and generation falls back to one chunk at a time for the **rest of that read**. Each new read starts again at your configured parallelism.
+
+## Saved audio and chunks
+
+Saved audio remembers its own chunk boundaries so Previous/Next part and highlighting keep working during Play Saved. If chunk-affecting settings changed since generation, the file plays as one non-navigable piece until you regenerate. See [[Saving Audio]] and [[Known Limitations]].
