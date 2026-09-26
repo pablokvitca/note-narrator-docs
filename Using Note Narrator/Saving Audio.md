@@ -7,7 +7,7 @@ tags:
   - saved-audio
 publish: true
 permalink: using/saving-audio
-plugin-version: 0.16.1
+plugin-version: 0.17.0
 updated: 2026-09-26
 ---
 
@@ -15,12 +15,12 @@ updated: 2026-09-26
 
 Saving turns each read into an `.mp3` in your vault so you can replay it later without spending more credits.
 
-> [!abstract] Three layers, each optional
-> 1. **Save generated audio to a file**: write the `.mp3`.
-> 2. **Link saved audio in the note**: record the link and tracking data in the note's frontmatter. Needs layer 1.
-> 3. **Auto-generate on open**: keep audio fresh in the background. Needs layers 1 and 2.
+> [!abstract] Three layers
+> 1. **Save generated audio to a file**: write the `.mp3`. Off by default.
+> 2. **Link saved audio in the note**: record the link and tracking data in the note's frontmatter. **On by default**, and turning on layer 1 turns it on too.
+> 3. **Auto-generate on open**: keep audio fresh in the background. Off by default. Needs layers 1 and 2.
 
-All three are off by default. Settings are in [[Save Audio Settings]].
+Settings are in [[Files Settings]]. Settings that do not apply, such as the property names while saving is off, are greyed out.
 
 ## Saving
 
@@ -28,7 +28,7 @@ With saving on, the file is written as soon as **generation** finishes, not when
 
 ## Linking and staleness
 
-With linking on, the note gets frontmatter properties recording the audio link, a content hash, the file path, a timestamp, the voice and each chunk's duration. Full list in [[Frontmatter Properties]].
+With linking on, the note gets frontmatter properties recording the audio link, a content hash, the file path, a timestamp, a fingerprint of the narrator profile's voice settings, and each chunk's duration. Full list in [[Frontmatter Properties]].
 
 The hash lets the panel tell you whether the audio still matches the note:
 

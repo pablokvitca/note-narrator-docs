@@ -7,7 +7,7 @@ tags:
   - panel
 publish: true
 permalink: using/the-panel
-plugin-version: 0.16.1
+plugin-version: 0.17.0
 updated: 2026-09-26
 ---
 
@@ -16,18 +16,18 @@ updated: 2026-09-26
 The panel lives in the right sidebar. Open it from the ribbon icon, the note toolbar icon, or the **Read note aloud** command. Opening it never starts generation on its own.
 
 > [!todo] Screenshot needed: `panel-idle.png`
-> The panel with a note open and nothing playing. Should show the note title, voice dropdown, note stats, and the Play Saved / Read / Background buttons.
+> The panel with a note open and nothing playing. Should show the note title, narrator dropdown, note stats, and the Play Saved / Read / Background buttons.
 
 ## Layout, top to bottom
 
 1. **Selected note.** A "Read: Note title" line for the note you are viewing. The panel follows the active note as you switch between notes. If a read is already in progress for a different note, a "Currently reading: Other note" line appears under it, so switching notes never hides what is playing.
-2. **Voice.** Dropdown of voices, limited to your shortlist if you set one in [[Panel Voices Settings]].
+2. **Narrator.** Dropdown of your narrator profiles that have **Show in panel dropdown** on (plus the active one). Picking one makes it the active narrator. See [[Profiles Settings]].
 3. **Note stats.** Total characters, total chunks, and approximate average characters and words per chunk, computed as soon as a note is open, before you click anything.
 4. **Saved audio status.** Only when the note has linked audio. Shows a green "up to date" line or an amber "outdated" warning, with a small delete button for the saved file. See [[Saving Audio]].
 5. **Action buttons.** See below.
 6. **Status, time and progress.** Elapsed, total and remaining time, "Part X of Y, Z% complete", and the generation bar.
 7. **Playback controls.** See [[Playback Controls]].
-8. **Speed and volume.** Live sliders, each can be hidden in settings. See [[Performance Settings]].
+8. **Speed and volume.** Live sliders, each can be hidden in settings. See [[Appearance Settings]].
 9. **Background jobs.** Notes generating or finished in the background. See [[Background Generation]].
 
 > [!note] Disabled, not hidden
@@ -38,14 +38,14 @@ The panel lives in the right sidebar. Open it from the ribbon icon, the note too
 | Button | What it does |
 | --- | --- |
 | **Play Saved** | Plays the note's existing saved audio with no regeneration. |
-| **Read** | Generates and plays the note. Relabels itself to **Regenerate** when the note changed since the audio was made, and to **Regenerate with new voice** when the selected voice differs from the saved one. While busy it reads "Reading". |
+| **Read** | Generates and plays the note. Relabels itself to **Regenerate** when the note changed since the audio was made, and to **Regenerate with new narrator** when the selected profile's voice settings differ from the saved audio's. While busy it reads "Reading". |
 | **Cancel** | Stops an in-progress generation. |
 | **Background** | Moves the current read to the background so it keeps generating. See [[Background Generation]]. |
 
 The **Compact buttons** setting turns these into icon-only buttons with tooltips. Narrow panels do this automatically.
 
 > [!todo] Screenshot needed: `panel-buttons-states.png`
-> Side by side: Read, Regenerate, Regenerate with new voice, and the compact icon-only version.
+> Side by side: Read, Regenerate, Regenerate with new narrator, and the compact icon-only version.
 
 ## The generation bar
 
@@ -61,11 +61,11 @@ A segmented bar with one segment per chunk:
 
 ## Time readout
 
-Choose what the times mean with the **Time display** setting: full totals across the whole read (unfinished parts shown as "+N parts"), just the current part, or both. See [[Performance Settings]].
+Choose what the times mean with the **Time display** setting: full totals across the whole read (unfinished parts shown as "+N parts"), just the current part, or both. See [[Appearance Settings]].
 
 ## The title-bar menu
 
-The **⋮** menu in the panel's title bar has **Clear Note Narrator files**, which deletes a note's linked audio file and removes the properties. You are asked to confirm first. You can hide it with the **Show "clear Note Narrator files"** setting. See [[Save Audio Settings]].
+The **⋮** menu in the panel's title bar has **Clear Note Narrator files**, which deletes a note's linked audio file and removes the properties. You are asked to confirm first. You can hide it with the **Show "clear Note Narrator files"** setting. See [[Files Settings]].
 
 ## The note toolbar icon
 

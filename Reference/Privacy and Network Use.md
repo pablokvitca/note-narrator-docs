@@ -7,7 +7,7 @@ tags:
   - privacy
 publish: true
 permalink: reference/privacy
-plugin-version: 0.16.1
+plugin-version: 0.17.0
 updated: 2026-09-26
 ---
 
@@ -22,14 +22,14 @@ Note Narrator does not collect telemetry or analytics, and it never runs remote 
 
 | Request | Data sent |
 | --- | --- |
-| Generate speech | The text being read (after Markdown cleanup), the chosen voice and model, and voice settings |
-| List voices | Your API key, to fetch your account's voices |
+| Generate speech | The text being read (after Markdown cleanup), the narrator profile's voice, model and voice settings, and the provider's API key |
+| List voices | The provider's API key, to fetch that account's voices (when you open a profile's page or press refresh) |
 
 The text of a note leaves your device when you read it. If a note is sensitive, do not read it with this plugin. ElevenLabs' own terms and privacy policy apply to what they receive.
 
 ## What is stored
 
-- **API key:** in Obsidian's secret storage, not in the vault or plugin settings.
+- **API keys:** in Obsidian's secret storage, not in the vault or plugin settings. Only the name of each provider's secret is saved.
 - **Settings:** in the plugin's `data.json`.
 - **Audio and tracking data:** `.mp3` files in your vault and frontmatter properties on notes. See [[Frontmatter Properties]].
 

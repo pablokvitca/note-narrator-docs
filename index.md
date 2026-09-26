@@ -9,7 +9,7 @@ aliases:
   - Note Narrator docs
 publish: true
 permalink: /
-plugin-version: 0.16.1
+plugin-version: 0.17.0
 updated: 2026-09-26
 ---
 
@@ -25,7 +25,7 @@ Note Narrator is an Obsidian plugin that **reads your notes aloud** using text t
 
 ## What it does
 
-- Reads the whole note, or just your selection, with a voice from your ElevenLabs account.
+- Reads the whole note, or just your selection, with a narrator profile: a provider, a voice, and your own reading settings.
 - Starts playing after the first short chunk is ready, and keeps generating the rest while you listen. See [[Long Notes and Chunking]].
 - Saves audio to your vault and tracks whether it is still up to date. See [[Saving Audio]].
 - Highlights what is being read and scrolls the note to it. See [[Highlighting and Scrolling]].
@@ -37,6 +37,7 @@ Note Narrator is an Obsidian plugin that **reads your notes aloud** using text t
 - [[Installation]]: BRAT, manual install, requirements
 - [[Quick Start]]: from install to your first read
 - [[Setting Up ElevenLabs]]: API key, voices and models
+- [[Providers Settings]] and [[Profiles Settings]]: how providers and narrator profiles fit together
 
 ### Using Note Narrator
 - [[The Panel]]: every part of the sidebar panel
@@ -49,8 +50,8 @@ Note Narrator is an Obsidian plugin that **reads your notes aloud** using text t
 - [[Commands]]
 
 ### Settings
-- [[Settings Overview]] links to one page per settings group:
-  [[ElevenLabs Settings]], [[Panel Voices Settings]], [[Reading Settings]], [[Highlighting Settings]], [[Performance Settings]], [[Save Audio Settings]]
+- [[Settings Overview]] links to one page per settings tab:
+  [[General Settings]], [[Providers Settings]], [[Profiles Settings]], [[Appearance Settings]], [[Performance Settings]], [[Files Settings]]
 
 ### Reference
 - [[Frontmatter Properties]]
@@ -62,4 +63,4 @@ Note Narrator is an Obsidian plugin that **reads your notes aloud** using text t
 - [[Roadmap]]: what is next and what is being considered
 
 > [!info] About this documentation
-> These docs describe version **0.16.1** (stable). Features that only exist in a beta are marked with a callout. Something wrong or missing? Open an issue on the [GitHub repository](https://github.com/pablokvitca/note-narrator).
+> These docs describe version **0.17** (currently in beta). It adds providers and narrator profiles, tabbed settings, and the toolbar saved-audio icon. If you are on 0.16.x, the settings screen looks different from these pages. Something wrong or missing? Open an issue on the [GitHub repository](https://github.com/pablokvitca/note-narrator).

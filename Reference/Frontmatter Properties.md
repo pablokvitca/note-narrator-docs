@@ -7,13 +7,13 @@ tags:
   - saved-audio
 publish: true
 permalink: reference/frontmatter-properties
-plugin-version: 0.16.1
+plugin-version: 0.17.0
 updated: 2026-09-26
 ---
 
 # Frontmatter Properties
 
-When **Link saved audio in the note** is on, Note Narrator writes six properties to the note. All names are configurable in [[Save Audio Settings]]. These are the defaults.
+When **Link saved audio in the note** is on, Note Narrator writes six properties to the note. All names are configurable in [[Files Settings]]. These are the defaults.
 
 | Property | Contains |
 | --- | --- |
@@ -21,7 +21,7 @@ When **Link saved audio in the note** is on, Note Narrator writes six properties
 | `note_narrator_audio_hash` | Hash of the note's content when the audio was made, used for [[Saving Audio#Linking and staleness\|staleness]] |
 | `note_narrator_audio_path` | Raw vault path of the file, used internally |
 | `note_narrator_audio_timestamp` | When the audio was generated |
-| `note_narrator_audio_voice` | ElevenLabs voice ID used |
+| `note_narrator_audio_voice` | A fingerprint (hash) of the narrator profile's voice settings that made the audio. Notes saved before 0.17 hold the raw ElevenLabs voice ID here, which still counts as a match for that voice |
 | `note_narrator_audio_chunk_durations` | A list of `[duration in seconds, byte length]` pairs, one per chunk |
 
 ## Example
@@ -32,7 +32,7 @@ note_narrator_audio: "[[My Note (Rachel).mp3]]"
 note_narrator_audio_hash: 4ac88baf
 note_narrator_audio_path: Notes/My Note (Rachel).mp3
 note_narrator_audio_timestamp: 2026-09-12T16:24:48.902-04:00
-note_narrator_audio_voice: 21m00Tcm4TlvDq8ikWAM
+note_narrator_audio_voice: 9c1f03ab
 note_narrator_audio_chunk_durations:
   - - 33.11
     - 530852
@@ -40,6 +40,9 @@ note_narrator_audio_chunk_durations:
     - 145911
 ---
 ```
+
+> [!info] What the voice fingerprint covers
+> The provider type, voice, model, stability and similarity boost. Renaming a profile, moving it to another account, or changing its reading overrides does not change it. If the selected profile's fingerprint differs from a note's, the Read button becomes **Regenerate with new narrator**. See [[Profiles Settings]].
 
 > [!note] They are excluded from the hash
 > Note Narrator's own six properties never count as an edit, so writing them does not make the audio look outdated.

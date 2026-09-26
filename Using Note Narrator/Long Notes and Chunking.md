@@ -7,7 +7,7 @@ tags:
   - performance
 publish: true
 permalink: using/long-notes-and-chunking
-plugin-version: 0.16.1
+plugin-version: 0.17.0
 updated: 2026-09-26
 ---
 
@@ -22,7 +22,7 @@ ElevenLabs limits how much text one request can hold, so Note Narrator splits a 
 | **Markdown-aware** (default) | By heading section first (up to the max heading depth), then by sentence inside each section |
 | **Sentence-only** | Ignores headings and packs sentences up to the character limit |
 
-**Max heading depth** (default 2) decides which headings start a new section: 1 is `#`, 2 is `##` and shallower, up to 6. Deeper headings stay inside their section.
+**Max heading depth** (default 2, and overridable per narrator profile) decides which headings start a new section: 1 is `#`, 2 is `##` and shallower, up to 6. Deeper headings stay inside their section.
 
 > [!example] Skipping a section
 > With the Markdown-aware chunker, add `Changelog` to **Skip sections by heading** and any section whose heading matches is never read, so its parts also disappear from the generation bar.
@@ -37,7 +37,7 @@ ElevenLabs limits how much text one request can hold, so Note Narrator splits a 
 
 ## Parallel generation
 
-- **Generate chunks in parallel** (on): more than one chunk at a time. **Max parallel chunk generation** sets the window (default 2, recommended 2 to 5).
+- **Generate chunks in parallel** (on): more than one chunk at a time. **Max parallel chunk generation** sets the window (default 2, recommended 2 to 5). Both are set **per provider**, because rate limits belong to the account. See [[Providers Settings]].
 - More parallelism finishes long notes sooner, but makes more simultaneous requests and hits rate limits sooner.
 
 > [!warning] Rate limits

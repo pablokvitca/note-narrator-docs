@@ -23,14 +23,14 @@ Each placeholder in the docs is a `> [!todo] Screenshot needed: ...` callout. To
 
 - [ ] `hero-panel-and-note.png` on [[index]]. Note in Editing view, panel open mid-playback, margin marker visible
 - [ ] `install-brat-add-plugin.png` on [[Installation]]. BRAT's Add a beta plugin dialog
-- [ ] `settings-api-key.png` on [[Quick Start]]. API key control filled (hide the key)
+- [ ] `settings-api-key.png` on [[Quick Start]]. The provider's API key control filled (hide the key)
 - [ ] `open-panel-ribbon-and-toolbar.png` on [[Quick Start]]. Ribbon icon and toolbar icon called out
 - [ ] `panel-reading.png` on [[Quick Start]]. Panel while reading
 
 ## Using
 
 - [ ] `panel-idle.png` on [[The Panel]]. Idle panel with a note open
-- [ ] `panel-buttons-states.png` on [[The Panel]]. Read, Regenerate, Regenerate with new voice, compact
+- [ ] `panel-buttons-states.png` on [[The Panel]]. Read, Regenerate, Regenerate with new narrator, compact
 - [ ] `panel-generation-bar.png` on [[The Panel]]. Ready, generating, current and empty segments
 - [ ] `toolbar-icon-states.png` on [[The Panel]]. Normal and 0.17 saved states
 - [ ] `playback-controls-row.png` on [[Playback Controls]]. Labeled transport row and sliders
@@ -41,13 +41,15 @@ Each placeholder in the docs is a `> [!todo] Screenshot needed: ...` callout. To
 
 ## Settings
 
-- [ ] `settings-tab-overview.png` on [[Settings Overview]]
-- [ ] `settings-elevenlabs.png` on [[ElevenLabs Settings]]
-- [ ] `settings-panel-voices.png` on [[Panel Voices Settings]]
-- [ ] `settings-reading.png` on [[Reading Settings]] (plus a variant with comment skipping off)
-- [ ] `settings-highlighting.png` on [[Highlighting Settings]]. Highlighting on so dependents show
+- [ ] `settings-tab-overview.png` on [[Settings Overview]]. The tab bar, General selected
+- [ ] `settings-general.png` on [[General Settings]] (plus a variant with comment skipping off)
+- [ ] `settings-providers-list.png` on [[Providers Settings]]. Two providers and the + button
+- [ ] `settings-provider-page.png` on [[Providers Settings]]. Connection and Generation groups
+- [ ] `settings-profiles-list.png` on [[Profiles Settings]]. Default narrator dropdown and two profiles
+- [ ] `settings-profile-page.png` on [[Profiles Settings]]. Profile, Voice and Reading overrides groups
+- [ ] `settings-appearance.png` on [[Appearance Settings]]. Highlighting on so dependents are enabled
 - [ ] `settings-performance.png` on [[Performance Settings]]
-- [ ] `settings-save-audio.png` on [[Save Audio Settings]]. Saving and linking on
+- [ ] `settings-files.png` on [[Files Settings]]. Saving on, plus a variant with saving off (greyed out)
 
 ## Nice to have
 

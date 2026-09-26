@@ -6,7 +6,7 @@ tags:
   - usage
 publish: true
 permalink: using/reading-a-note
-plugin-version: 0.16.1
+plugin-version: 0.17.0
 updated: 2026-09-26
 ---
 
@@ -32,7 +32,7 @@ Before text goes to ElevenLabs, Markdown is cleaned up so it is not spoken liter
 
 In order, the spoken text can include:
 
-1. **The note title**, if [[Reading Settings|Read note title]] is on (default on).
+1. **The note title**, if **Read note title** is on (default on).
 2. **The properties**, if **Read note properties** is on (default off). This says "Properties", then each key and value, then "Content".
 3. **The note body**, minus anything you chose to skip.
 
@@ -47,11 +47,11 @@ In order, the spoken text can include:
 | Whole sections such as a Changelog | **Skip sections by heading**, one regex per line |
 | Arbitrary regions | Not available yet, planned as "do not read aloud" delimiters. See [[Roadmap]] |
 
-If you turn comment skipping off you can choose whether to hide the `%%` symbols and whether to announce comments as "Comment: ...". Details in [[Reading Settings]].
+If you turn comment skipping off you can choose whether to hide the `%%` symbols and whether to announce comments as "Comment: ...". Details in [[General Settings]]. Each of these can also be overridden per narrator profile in [[Profiles Settings]].
 
 > [!bug] HTML comments are still read
 > `<!-- HTML comments -->` are not stripped and are read as literal text. An attempted fix did not hold up in testing. Tracked on the [[Roadmap]] and in [[Known Limitations]].
 
-## Choosing a voice for one read
+## Choosing a narrator for one read
 
-Change the **Voice** dropdown in the panel. The setting in Settings sets the default. If the note already has saved audio in a different voice, the Read button becomes **Regenerate with new voice**.
+Change the **Narrator** dropdown in the panel. It picks a narrator profile: a provider, a voice, and optional overrides of these reading settings. The profile chosen there stays active until you change it, and the **Default narrator** setting is the same thing. If the note already has saved audio made with different voice settings, the Read button becomes **Regenerate with new narrator**. See [[Profiles Settings]].

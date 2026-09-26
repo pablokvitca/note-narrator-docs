@@ -6,7 +6,7 @@ tags:
   - roadmap
 publish: true
 permalink: roadmap
-plugin-version: 0.16.1
+plugin-version: 0.17.0
 updated: 2026-09-26
 ---
 
@@ -24,11 +24,13 @@ updated: 2026-09-26
 - Skip sections by heading regex, and separate Markdown comment toggles
 - Saved audio: up to date tracking, per-chunk parts for Previous/Next during Play Saved, auto-generate on open
 - Mobile support: tested on iPhone, iPad, iPad mini and visionOS, with touch-sized controls
-- Configurable rewind and skip amounts, compact buttons, and a panel voice shortlist
+- Configurable rewind and skip amounts and compact buttons
 
 ## In progress: 0.17
 
 > [!info] In the beta
+> **Providers and narrator profiles.** The settings screen is reorganised into six tabs (General, Providers, Profiles, Appearance, Performance, Files). Providers hold API keys and parallel-generation limits, and you can add several, even of the same type. Narrator profiles bundle a provider, voice settings, a dropdown toggle and optional reading overrides, and replace the old voice list and panel voices shortlist. Settings that do not apply are greyed out instead of hidden, and saving audio now turns on linking by default.
+>
 > **Saved state on the toolbar icon.** The note's toolbar icon switches to a waveform with a check badge when it has up-to-date saved audio, so you no longer need to open the panel to check. Available in the 0.17 beta through BRAT.
 
 ## Toward 1.0
@@ -39,9 +41,8 @@ The goal for 1.0 is a polished first public release.
 | --- | --- |
 | **Community plugin directory listing** | Install without BRAT |
 | **Documentation and screenshots** | This site |
-| **Reorganize settings panels** | The settings grew one feature at a time. Regroup and reorder them for someone seeing them fresh |
 | **ElevenLabs credit usage and cost estimates** | Show remaining credits and an estimate before you read a long note |
-| **Other TTS providers** | The provider layer is already an interface. Add more than ElevenLabs |
+| **Other TTS providers** | Providers already have a type and per-type settings, so this means implementing more types than ElevenLabs |
 | **Local or offline voices** | OS text to speech or a local model. No key, no network, lower expressiveness |
 | **Auto-caption images** | Use a vision model to give images a short spoken description instead of skipping them |
 
@@ -68,6 +69,7 @@ The goal for 1.0 is a polished first public release.
 
 Not scheduled yet.
 
+- **Default narrator profile by note folder.** Notes under `Journal/` use one profile, notes under `Work/` another, without touching the panel dropdown each time.
 - **Move tracking data onto the audio file.** Today six properties live on every note. Storing the metadata with the audio file would keep notes clean.
 - **Generate directly in the background.** Skip the "start a read, then move to background" step.
 - **Auto-move the current read to the background** when you start another, instead of discarding it.

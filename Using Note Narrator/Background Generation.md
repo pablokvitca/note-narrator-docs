@@ -7,7 +7,7 @@ tags:
   - background
 publish: true
 permalink: using/background-generation
-plugin-version: 0.16.1
+plugin-version: 0.17.0
 updated: 2026-09-26
 ---
 
@@ -28,11 +28,11 @@ If you want a note to finish generating without listening to it now, send it to 
 
 ## Separate concurrency
 
-Background work has its own parallelism, **Max parallel background chunk generation** (default 1). It is low on purpose so it does not compete with a read you are actively listening to. See [[Performance Settings]].
+Background work has its own parallelism, **Max parallel background chunk generation** (default 1), set on the provider the note's narrator uses. It is low on purpose so it does not compete with a read you are actively listening to. See [[Providers Settings]].
 
 ## Display style
 
-**Background job display** chooses how jobs look:
+**Background job display** (in [[Appearance Settings]]) chooses how jobs look:
 
 | Style | Look |
 | --- | --- |

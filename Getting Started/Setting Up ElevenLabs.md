@@ -1,13 +1,13 @@
 ---
 title: Setting Up ElevenLabs
-description: Create an ElevenLabs API key, store it safely in Obsidian, and choose a voice and model.
+description: Create an ElevenLabs API key, store it safely in Obsidian, and choose a voice and model in a narrator profile.
 tags:
   - note-narrator
   - getting-started
   - elevenlabs
 publish: true
 permalink: getting-started/setting-up-elevenlabs
-plugin-version: 0.16.1
+plugin-version: 0.17.0
 updated: 2026-09-26
 ---
 
@@ -18,15 +18,18 @@ Note Narrator generates speech with ElevenLabs, so you need an account with an A
 ## API key
 
 1. Sign in at [elevenlabs.io](https://elevenlabs.io) and create an API key in your account settings.
-2. In Obsidian, open **Settings, Note Narrator, ElevenLabs, API key**.
-3. Pick an existing secret or create a new one and paste the key.
+2. In Obsidian, open **Settings, Note Narrator, Providers** and open (or add) an ElevenLabs provider.
+3. Under **API key**, pick an existing secret or create a new one and paste the key.
+
+> [!tip] Two accounts?
+> Add a second ElevenLabs provider with its own key (for example personal and work), then point different narrator profiles at each. See [[Providers Settings]].
 
 > [!info] Where the key lives
 > The key is stored with Obsidian's built-in [secret storage](https://docs.obsidian.md/plugins/guides/secret-storage), not in the plugin's `data.json`. The plugin only remembers the **name** of the secret to look up (`elevenlabs-api-key` by default), so the key never appears in your vault files or your synced settings, and other plugins can share the same secret.
 
 ## Voices
 
-The **Voice** dropdown lists voices from your account, **the first 100**. Use the refresh button after adding a key or creating a voice. To keep the panel tidy, choose a shortlist under [[Panel Voices Settings]].
+A narrator profile's **Voice** dropdown lists voices from its provider's account, **the first 100**. Use the refresh button after adding a key or creating a voice. To keep the panel tidy, turn off **Show in panel dropdown** for profiles you rarely use. See [[Profiles Settings]].
 
 ## Models
 
@@ -43,8 +46,8 @@ The character limit is the size of one request. Longer notes are split into seve
 
 ## Voice tuning
 
-**Stability** and **Similarity boost** shape how the voice sounds. See [[ElevenLabs Settings]] for what each does.
+**Stability** and **Similarity boost** are set per narrator profile and shape how the voice sounds. See [[Profiles Settings]] for what each does.
 
 ## Rate limits
 
-If ElevenLabs answers with a rate limit (HTTP 429), Note Narrator retries automatically with exponential backoff (up to three attempts) and switches to one chunk at a time for the rest of that read. See [[Performance Settings]].
+If ElevenLabs answers with a rate limit (HTTP 429), Note Narrator retries automatically with exponential backoff (up to three attempts) and switches to one chunk at a time for the rest of that read. Parallelism is set per provider. See [[Providers Settings]].

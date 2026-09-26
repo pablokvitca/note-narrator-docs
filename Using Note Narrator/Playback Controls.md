@@ -7,7 +7,7 @@ tags:
   - playback
 publish: true
 permalink: using/playback-controls
-plugin-version: 0.16.1
+plugin-version: 0.17.0
 updated: 2026-09-26
 ---
 
@@ -32,17 +32,17 @@ Left to right:
 
 Previous and Next part move immediately without waiting for the current chunk to finish. They also work during **Play Saved**, moving between the saved file's own parts (see [[Saving Audio]]).
 
-The rewind and skip amounts are separate dropdowns (5 to 60 seconds). The icons show the chosen number. See [[Performance Settings]].
+The rewind and skip amounts are separate dropdowns (5 to 60 seconds). The icons show the chosen number. See [[Appearance Settings]].
 
 > [!note] No scrubbing
 > There is no scrub bar for jumping to an arbitrary time. Use parts and the relative rewind and skip.
 
 ## Speed and volume
 
-- **Playback speed** slider from 0.5x to 3x. It changes the current and next reads live without changing your default (set that under [[Performance Settings]]).
+- **Playback speed** slider from 0.5x to 3x. It changes the current and next reads live without changing your default (set that under [[General Settings]]).
 - **Volume** slider with a mute button. Live and per session, not saved.
 
-Either row can be hidden in settings if you do not use it. On narrow panels each collapses to a small pill that opens a popover slider.
+Either row can be hidden in [[Appearance Settings]] if you do not use it. On narrow panels each collapses to a small pill that opens a popover slider.
 
 > [!todo] Screenshot needed: `slider-compact-popover.png`
 > The compact speed pill with its popover slider open (narrow panel).

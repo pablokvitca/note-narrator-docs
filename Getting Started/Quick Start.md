@@ -6,7 +6,7 @@ tags:
   - getting-started
 publish: true
 permalink: getting-started/quick-start
-plugin-version: 0.16.1
+plugin-version: 0.17.0
 updated: 2026-09-26
 ---
 
@@ -16,14 +16,14 @@ From install to your first read.
 
 ## 1. Add your ElevenLabs API key
 
-Open **Settings, Note Narrator** and, under **ElevenLabs**, choose your API key from Obsidian's secret storage (or create a new secret). Full detail in [[Setting Up ElevenLabs]].
+Open **Settings, Note Narrator, Providers**, open the **ElevenLabs** provider, and choose your API key from Obsidian's secret storage (or create a new secret). Full detail in [[Setting Up ElevenLabs]].
 
 > [!todo] Screenshot needed: `settings-api-key.png`
-> The ElevenLabs settings group with the API key control filled in (mask or hide the key).
+> The ElevenLabs provider's page with the API key control filled in (mask or hide the key).
 
 ## 2. Pick a voice and model
 
-Still in settings, choose a **Voice** (fetched from your account) and a **Model**. The defaults work well for most notes: Eleven Multilingual v2 is a solid balance of quality and cost.
+Open the **Profiles** tab and the **Default** narrator profile. Choose a **Voice** (fetched from your account) and a **Model**. The defaults work well for most notes: Eleven Multilingual v2 is a solid balance of quality and cost. You can add more profiles later. See [[Profiles Settings]].
 
 ## 3. Open the panel
 
