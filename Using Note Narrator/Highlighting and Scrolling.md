@@ -37,7 +37,17 @@ Both are exact because they follow which chunk is really playing. With Section g
 | **Background wash** | Colours the text background |
 | **Underline** | Underlines the text |
 
-![[highlight-styles.png]]
+**Margin marker**
+
+![[highlight-margin-marker.png]]
+
+**Background wash**
+
+![[highlight-background.png]]
+
+**Underline**
+
+![[highlight-underline.png]]
 
 ## Scroll to current section
 

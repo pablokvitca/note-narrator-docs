@@ -36,7 +36,7 @@ Each placeholder in the docs is a `> [!todo] Screenshot needed: ...` callout. To
 - [x] `playback-controls-row.png` on [[Playback Controls]]. Labeled transport row and sliders
 - [ ] `slider-compact-popover.png` on [[Playback Controls]]. Narrow panel pill with popover
 - [x] `panel-saved-status.png` on [[Saving Audio]]. Up to date and outdated status lines
-- [x] `highlight-styles.png` on [[Highlighting and Scrolling]]. Margin marker, background, underline
+- [x] `highlight-margin-marker.png`, `highlight-background.png` and `highlight-underline.png` on [[Highlighting and Scrolling]]. One per style
 - [ ] `background-jobs-list.png` on [[Background Generation]]. One generating, one finished
 
 ## Settings
