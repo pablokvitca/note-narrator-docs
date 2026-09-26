@@ -61,7 +61,7 @@ HTML comments are read as text. See [[Known Limitations]].
 
 **Does it work offline?** Not yet. It needs ElevenLabs. Local voices are planned. See [[Roadmap]].
 
-**Does it work on mobile?** Yes. It has been tested on iPhone, iPad, iPad mini and visionOS.
+**Does it work on mobile?** Yes. It has been tested on iPhone, iPad, iPad mini and visionOS. Android has not been tested. See [[Supported Platforms]].
 
 **How much does it cost?** The plugin is free. ElevenLabs charges credits for generated audio. Saved audio replays for free.
 

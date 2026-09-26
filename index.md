@@ -54,6 +54,7 @@ Note Narrator is an Obsidian plugin that **reads your notes aloud** using text t
 
 ### Reference
 - [[Frontmatter Properties]]
+- [[Supported Platforms]]: what has been tested where
 - [[Known Limitations]]
 - [[Privacy and Network Use]]
 - [[Troubleshooting and FAQ]]
