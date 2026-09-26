@@ -42,8 +42,8 @@ The goal for 1.0 is a polished first public release.
 | **Community plugin directory listing** | Install without BRAT |
 | **Documentation and screenshots** | This site |
 | **ElevenLabs credit usage and cost estimates** | Show remaining credits and an estimate before you read a long note |
-| **Other TTS providers** | Providers already have a type and per-type settings, so this means implementing more types than ElevenLabs |
-| **Local or offline voices** | OS text to speech or a local model. No key, no network, lower expressiveness |
+| **Other TTS providers** | Providers already have a type and per-type settings, so this means implementing more types than ElevenLabs. Google Gemini is next. See [[Supported Platforms]] |
+| **Local or offline voices** | Apple OS (Local) first: the text to speech built into macOS, iOS, iPadOS and visionOS. No key, no network, lower expressiveness. A local model may follow |
 | **Auto-caption images** | Use a vision model to give images a short spoken description instead of skipping them |
 
 ## After 1.0
