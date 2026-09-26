@@ -48,7 +48,7 @@ Things that do not work the way you might expect yet. Many have a planned fix on
 
 ## Platform
 
-- Requires Obsidian 1.13.0 or newer.
+- Requires Obsidian 1.13.1 or newer.
 - Requires an ElevenLabs account. ElevenLabs is the only provider type so far, though you can add several ElevenLabs providers. No offline or local voice yet.
 
 > [!question] Found something not listed?

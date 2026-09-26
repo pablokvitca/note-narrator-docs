@@ -19,7 +19,7 @@ updated: 2026-09-26
 
 | Requirement | Details |
 | --- | --- |
-| Obsidian | **1.13.0 or newer** (the settings tab uses the declarative settings API) |
+| Obsidian | **1.13.1 or newer** (the settings tab uses the declarative settings API) |
 | Platforms | Desktop and mobile (iPhone, iPad, iPad mini and visionOS have been tested) |
 | Account | An [ElevenLabs](https://elevenlabs.io) account and API key |
 | Network | Internet access to `api.elevenlabs.io` when you read or regenerate. See [[Privacy and Network Use]] |
