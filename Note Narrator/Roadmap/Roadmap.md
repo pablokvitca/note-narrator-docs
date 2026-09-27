@@ -6,8 +6,8 @@ tags:
   - roadmap
 publish: true
 permalink: note-narrator/roadmap
-plugin-version: 0.17.0
-updated: 2026-09-26
+plugin-version: 0.17.1
+updated: 2026-09-27
 ---
 
 # Roadmap
@@ -17,6 +17,9 @@ updated: 2026-09-26
 
 ## Recently shipped
 
+- **0.17.1:** keep generating the current note in the background when you start reading another one (on by default, see [[Background Generation]]); repaint the editor highlight immediately when a highlight setting changes; the note's toolbar icon and the panel's Regenerate label update correctly when switching notes; the custom save folder can no longer be pointed outside the vault; invalid or iOS-unsupported "Skip sections by heading" patterns are flagged as you type
+- **0.17.0: providers and narrator profiles.** The settings screen is reorganised into six tabs (General, Providers, Profiles, Appearance, Performance, Files). Providers hold API keys and parallel-generation limits, and you can add several, even of the same type. Narrator profiles bundle a provider, voice settings, a dropdown toggle and optional reading overrides, and replace the old voice list and panel voices shortlist. Settings that do not apply are greyed out instead of hidden, and saving audio now turns on linking by default
+- **0.17.0:** the note's toolbar icon switches to a waveform with a check badge when it has up-to-date saved audio, so you no longer need to open the panel to check
 - Background generation with a job list, click to play, and a separate concurrency limit
 - Volume slider and mute, plus optional speed and volume rows
 - Full-audio time display modes with "+N parts" for ungenerated chunks
@@ -25,13 +28,6 @@ updated: 2026-09-26
 - Saved audio: up to date tracking, per-chunk parts for Previous/Next during Play saved, auto-generate on open
 - Mobile support: tested on iPhone, iPad, iPad mini and visionOS, with touch-sized controls
 - Configurable rewind and skip amounts and compact buttons
-
-## In progress: 0.17
-
-> [!info] In the beta
-> **Providers and narrator profiles.** The settings screen is reorganised into six tabs (General, Providers, Profiles, Appearance, Performance, Files). Providers hold API keys and parallel-generation limits, and you can add several, even of the same type. Narrator profiles bundle a provider, voice settings, a dropdown toggle and optional reading overrides, and replace the old voice list and panel voices shortlist. Settings that do not apply are greyed out instead of hidden, and saving audio now turns on linking by default.
->
-> **Saved state on the toolbar icon.** The note's toolbar icon switches to a waveform with a check badge when it has up-to-date saved audio, so you no longer need to open the panel to check. Available in the 0.17 beta through BRAT.
 
 ## Toward 1.0
 
@@ -55,7 +51,7 @@ The goal for 1.0 is a polished first public release.
 | **HTML comment skipping fix** | `<!-- -->` comments are currently read aloud. A previous attempt did not hold up |
 | **"Do not read aloud" delimiters** | A start and end marker, for example `---(start do not read aloud)---`, to exclude any region regardless of chunker |
 | **Hide Note Narrator properties** | A toggle to hide its frontmatter from the rendered Properties view (feasibility is being investigated) |
-| **Read out backlinks** | An option to speak the notes that link to this one. Off by default |
+| **Read out backlinks** | An option to speak the notes that link to this one. Disabled by default |
 | **Better per-chunk saving** | Proper MP3 re-muxing, or saving chunks separately with a manifest |
 
 ### 2.0
@@ -72,7 +68,7 @@ Not scheduled yet.
 - **Default narrator profile by note folder.** Notes under `Journal/` use one profile, notes under `Work/` another, without touching the panel dropdown each time.
 - **Move tracking data onto the audio file.** Today six properties live on every note. Storing the metadata with the audio file would keep notes clean.
 - **Generate directly in the background.** Skip the "start a read, then move to background" step.
-- **Auto-move the current read to the background** when you start another, instead of discarding it.
+- **Skip the doubled title.** When a note's title exactly matches its first heading, don't read the title twice.
 - **More content filters.** Toggles to skip code blocks, inline code, blockquotes, tags, tables, image embeds, emojis and other syntax.
 - **Per-section and chapter bookmarks.**
 - **Sentence and word level highlighting.** Needs word timing from the provider to stay in sync.

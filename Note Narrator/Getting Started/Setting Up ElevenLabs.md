@@ -7,8 +7,8 @@ tags:
   - elevenlabs
 publish: true
 permalink: note-narrator/getting-started/setting-up-elevenlabs
-plugin-version: 0.17.0
-updated: 2026-09-26
+plugin-version: 0.17.1
+updated: 2026-09-27
 ---
 
 # Setting Up ElevenLabs

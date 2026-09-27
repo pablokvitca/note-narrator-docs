@@ -7,8 +7,8 @@ tags:
   - performance
 publish: true
 permalink: note-narrator/using/long-notes-and-chunking
-plugin-version: 0.17.0
-updated: 2026-09-26
+plugin-version: 0.17.1
+updated: 2026-09-27
 ---
 
 # Long Notes and Chunking
@@ -29,15 +29,15 @@ ElevenLabs limits how much text one request can hold, so Note Narrator splits a 
 
 ## Start playing sooner
 
-- **Start playback immediately** (on): play as soon as the first chunk is ready instead of waiting for the whole note.
-- **Quick start** (on): make that first chunk deliberately short (including the title and properties preamble) so audio starts faster. Size it in **Words** (default 150) or **Characters** (default 750).
+- **Start playback immediately** (enabled by default): play as soon as the first chunk is ready instead of waiting for the whole note.
+- **Quick start** (enabled by default): make that first chunk deliberately short (including the title and properties preamble) so audio starts faster. Size it in **Words** (default 150) or **Characters** (default 750).
 
 > [!tip] Long notes
 > Quick start matters most on long notes. The first sentence or two are generated alone, and everything else generates while you listen.
 
 ## Parallel generation
 
-- **Generate chunks in parallel** (on): more than one chunk at a time. **Max parallel chunk generation** sets the window (default 2, recommended 2 to 5). Both are set **per provider**, because rate limits belong to the account. See [[Providers Settings]].
+- **Generate chunks in parallel** (enabled by default): more than one chunk at a time. **Max parallel chunk generation** sets the window (default 2, recommended 2 to 5). Both are set **per provider**, because rate limits belong to the account. See [[Providers Settings]].
 - More parallelism finishes long notes sooner, but makes more simultaneous requests and hits rate limits sooner.
 
 > [!warning] Rate limits

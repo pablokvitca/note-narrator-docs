@@ -6,8 +6,8 @@ tags:
   - settings
 publish: true
 permalink: note-narrator/settings/overview
-plugin-version: 0.17.0
-updated: 2026-09-26
+plugin-version: 0.17.1
+updated: 2026-09-27
 ---
 
 # Settings Overview
@@ -40,31 +40,32 @@ Open **Settings, Note Narrator**. A tab bar at the top switches between six sect
 | **Profiles** | One profile, "Default" |
 | Profile voice / model | Rachel (`21m00Tcm4TlvDq8ikWAM`) / Eleven Multilingual v2 |
 | Stability / Similarity boost | 0.5 / 0.75 |
-| Show in panel dropdown | On |
+| Show in panel dropdown | Enabled |
 | Reading overrides | None (inherit General) |
-| Read selection instead of whole note | On |
-| Read note title / properties | On / Off |
-| Skip Markdown comments | On |
+| Read selection instead of whole note | Enabled |
+| Read note title / properties | Enabled / Disabled |
+| Skip Markdown comments | Enabled |
 | Text chunker / Max heading depth | Markdown-aware / 2 |
 | Default playback speed | 1x |
-| Compact buttons | Off |
-| Show volume / speed slider | On / On |
+| Compact buttons | Disabled |
+| Show volume / speed slider | Enabled / Enabled |
 | Time display | Current part |
 | Background job display | Minimal card |
 | Rewind / Skip forward | 15s / 15s |
-| Highlight while reading | Off |
+| Highlight while reading | Disabled |
 | Highlight granularity / style | Chunk / Margin marker |
-| Scroll-to-current button | On |
-| Start playback immediately / Quick start | On / On |
+| Scroll-to-current button | Enabled |
+| Keep generating when starting another note | Enabled |
+| Start playback immediately / Quick start | Enabled / Enabled |
 | Quick start size | 150 words (750 characters) |
-| Save generated audio to a file | Off |
-| Link saved audio in the note | **On** (turning on saving also turns this on) |
+| Save generated audio to a file | Disabled |
+| Link saved audio in the note | **Enabled** (turning on saving also turns this on) |
 | Save location | Same folder as the note |
 | Custom folder path | `Note Narrator Audio` |
 | On regenerate | Replace existing file |
-| Auto-generate on open | Off |
-| Show clear files button | On |
-| Auto-clean missing files | On |
+| Auto-generate on open | Disabled |
+| Show clear files button | Enabled |
+| Auto-clean missing files | Enabled |
 
 > [!note] Settings are per vault
 > Settings live in the vault's plugin `data.json`. API keys do not: they are in Obsidian's secret storage. See [[Setting Up ElevenLabs]].

@@ -8,8 +8,8 @@ tags:
   - elevenlabs
 publish: true
 permalink: note-narrator/settings/providers
-plugin-version: 0.17.0
-updated: 2026-09-26
+plugin-version: 0.17.1
+updated: 2026-09-27
 ---
 
 # Providers Settings
@@ -53,7 +53,7 @@ Rate limits belong to an account, not a voice, so parallel generation is set **p
 
 | Setting | Default | Greyed out when | What it does |
 | --- | --- | --- | --- |
-| **Generate chunks in parallel** | On | never | Generate more than one chunk ahead of playback at once |
+| **Generate chunks in parallel** | Enabled | never | Generate more than one chunk ahead of playback at once |
 | **Max parallel chunk generation** | 2 | Parallel is off | Chunks generating at once (minimum 2). Recommended 2 to 5. Has a reset button |
 | **Max parallel background chunk generation** | 1 | never | The same limit for notes generating in the background. Recommended 1 to 3 |
 

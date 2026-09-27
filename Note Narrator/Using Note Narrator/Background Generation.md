@@ -7,8 +7,8 @@ tags:
   - background
 publish: true
 permalink: note-narrator/using/background-generation
-plugin-version: 0.17.0
-updated: 2026-09-26
+plugin-version: 0.17.1
+updated: 2026-09-27
 ---
 
 # Background Generation
@@ -24,6 +24,14 @@ If you want a note to finish generating without listening to it now, send it to 
 5. Click a job to play it. Use its small button to discard it (or remove it when done).
 
 ![[background-jobs-list.png]]
+
+## Starting another note while one is still generating
+
+With **Keep generating when starting another note** on (Performance tab, enabled by default), pressing **Read** or **Play saved** on a *different* note while one is still generating automatically moves the note that was generating to the background first -- the same as clicking **Background** yourself -- instead of discarding its progress. It then starts the new note as usual.
+
+This only applies when the note you're switching to is genuinely different. Reading the same note again (or one that already has a background job) adopts that job instead, as it always did.
+
+Turn the setting off in [[Performance Settings]] to go back to the old behaviour, where starting another note discards whatever was generating.
 
 ## Separate concurrency
 
@@ -42,4 +50,4 @@ Background work has its own parallelism, **Max parallel background chunk generat
 All three play the note when you click anywhere on them except the buttons.
 
 > [!info] Planned improvements
-> Generating directly in the background without starting a read first, and automatically moving the current read to the background when you start another, are on the [[Roadmap]].
+> Generating directly in the background without starting a read first is on the [[Roadmap]].

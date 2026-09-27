@@ -6,8 +6,8 @@ tags:
   - usage
 publish: true
 permalink: note-narrator/using/reading-a-note
-plugin-version: 0.17.0
-updated: 2026-09-26
+plugin-version: 0.17.1
+updated: 2026-09-27
 ---
 
 # Reading a Note
@@ -43,7 +43,7 @@ In order, the spoken text can include:
 
 | Want to skip | Use |
 | --- | --- |
-| `%% Obsidian comments %%` | **Skip Markdown comments** (on by default) |
+| `%% Obsidian comments %%` | **Skip Markdown comments** (enabled by default) |
 | Whole sections such as a Changelog | **Skip sections by heading**, one regex per line |
 | Arbitrary regions | Not available yet, planned as "do not read aloud" delimiters. See [[Roadmap]] |
 

@@ -5,7 +5,7 @@ tags:
   - meta
   - docs
 publish: false
-updated: 2026-09-26
+updated: 2026-09-27
 ---
 
 # Screenshot Checklist
