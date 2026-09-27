@@ -7,8 +7,8 @@ tags:
   - faq
 publish: true
 permalink: note-narrator/reference/troubleshooting
-plugin-version: 0.17.0
-updated: 2026-09-26
+plugin-version: 0.17.1
+updated: 2026-09-27
 ---
 
 # Troubleshooting and FAQ
