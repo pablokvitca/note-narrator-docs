@@ -6,8 +6,8 @@ tags:
   - settings
 publish: true
 permalink: note-narrator/settings/overview
-plugin-version: 0.17.0
-updated: 2026-09-26
+plugin-version: 0.17.1
+updated: 2026-09-27
 ---
 
 # Settings Overview
@@ -55,10 +55,11 @@ Open **Settings, Note Narrator**. A tab bar at the top switches between six sect
 | Highlight while reading | Disabled |
 | Highlight granularity / style | Chunk / Margin marker |
 | Scroll-to-current button | Enabled |
+| Keep generating when starting another note | Enabled |
 | Start playback immediately / Quick start | Enabled / Enabled |
 | Quick start size | 150 words (750 characters) |
 | Save generated audio to a file | Disabled |
-| Link saved audio in the note | **On** (turning on saving also turns this on) |
+| Link saved audio in the note | **Enabled** (turning on saving also turns this on) |
 | Save location | Same folder as the note |
 | Custom folder path | `Note Narrator Audio` |
 | On regenerate | Replace existing file |

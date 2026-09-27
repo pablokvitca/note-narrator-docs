@@ -7,8 +7,8 @@ tags:
   - reading
 publish: true
 permalink: note-narrator/settings/general
-plugin-version: 0.17.0
-updated: 2026-09-26
+plugin-version: 0.17.1
+updated: 2026-09-27
 ---
 
 # General Settings
@@ -33,7 +33,7 @@ With **Skip Markdown comments** off, the two comment options below it are greyed
 | **Announce comments as "Comment: ..."** | Enabled | Skip Markdown comments is on | Prefixes a comment's text with "Comment:" |
 | **Text chunker** | Markdown-aware | never | Markdown-aware or Sentence-only |
 | **Max heading depth for sections** | 2 | Chunker is not Markdown-aware | Slider 1 to 6. Headings at or shallower than this start a new section |
-| **Skip sections by heading** | empty | Chunker is not Markdown-aware | One regex per line. Matching sections are skipped entirely |
+| **Skip sections by heading** | empty | Chunker is not Markdown-aware | One regex per line. Matching sections are skipped entirely. A pattern that fails to compile is rejected and shown as an error; a lookbehind pattern is accepted but shown as a warning, since it is not supported on iOS below 16.4 |
 
 > [!example] Skip patterns
 > ```
