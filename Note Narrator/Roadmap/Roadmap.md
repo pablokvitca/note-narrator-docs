@@ -6,7 +6,7 @@ tags:
   - roadmap
 publish: true
 permalink: note-narrator/roadmap
-plugin-version: 0.17.1
+plugin-version: 1.0.0
 updated: 2026-09-27
 ---
 
@@ -17,6 +17,7 @@ updated: 2026-09-27
 
 ## Recently shipped
 
+- **1.0.0.** No user-facing changes over 0.17.1. It hardens the release process: the built `main.js` and `styles.css` now carry a GitHub build-provenance attestation, so anyone can verify they came from this repository's own source; a CSS rule was adjusted to drop a browser-support warning; and a type-resolution dependency (`moment`) is now declared directly instead of arriving indirectly through Obsidian's own package.
 - **0.17.1:** keep generating the current note in the background when you start reading another one (on by default, see [[Background Generation]]); repaint the editor highlight immediately when a highlight setting changes; the note's toolbar icon and the panel's Regenerate label update correctly when switching notes; the custom save folder can no longer be pointed outside the vault; invalid or iOS-unsupported "Skip sections by heading" patterns are flagged as you type
 - **0.17.0: providers and narrator profiles.** The settings screen is reorganised into six tabs (General, Providers, Profiles, Appearance, Performance, Files). Providers hold API keys and parallel-generation limits, and you can add several, even of the same type. Narrator profiles bundle a provider, voice settings, a dropdown toggle and optional reading overrides, and replace the old voice list and panel voices shortlist. Settings that do not apply are greyed out instead of hidden, and saving audio now turns on linking by default
 - **0.17.0:** the note's toolbar icon switches to a waveform with a check badge when it has up-to-date saved audio, so you no longer need to open the panel to check
@@ -29,18 +30,18 @@ updated: 2026-09-27
 - Mobile support: tested on iPhone, iPad, iPad mini and visionOS, with touch-sized controls
 - Configurable rewind and skip amounts and compact buttons
 
-## Toward 1.0
+## Toward the community directory
 
-The goal for 1.0 is a polished first public release.
+1.0.0 is a version number, not a feature-complete milestone -- it marks the plugin as ready to publish in Obsidian's community directory, not the end of this list. Some of the original "toward 1.0" goals are still ahead:
 
-| Item | Why |
-| --- | --- |
-| **Community plugin directory listing** | Install without BRAT |
-| **Documentation and screenshots** | This site |
-| **ElevenLabs credit usage and cost estimates** | Show remaining credits and an estimate before you read a long note |
-| **Other TTS providers** | Providers already have a type and per-type settings, so this means implementing more types than ElevenLabs. Google Gemini is next. See [[Supported Platforms]] |
-| **Local or offline voices** | Apple OS (Local) first: the text to speech built into macOS, iOS, iPadOS and visionOS. No key, no network, lower expressiveness. A local model may follow |
-| **Auto-caption images** | Use a vision model to give images a short spoken description instead of skipping them |
+| Item | Why | Status |
+| --- | --- | --- |
+| **Documentation and screenshots** | This site | Done |
+| **Community plugin directory listing** | Install without BRAT | Not yet submitted |
+| **ElevenLabs credit usage and cost estimates** | Show remaining credits and an estimate before you read a long note | Not started |
+| **Other TTS providers** | Providers already have a type and per-type settings, so this means implementing more types than ElevenLabs. Google Gemini is next. See [[Supported Platforms]] | Not started |
+| **Local or offline voices** | Apple OS (Local) first: the text to speech built into macOS, iOS, iPadOS and visionOS. No key, no network, lower expressiveness. A local model may follow | Not started |
+| **Auto-caption images** | Use a vision model to give images a short spoken description instead of skipping them | Not started |
 
 ## After 1.0
 
