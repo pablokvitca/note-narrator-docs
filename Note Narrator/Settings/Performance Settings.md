@@ -7,7 +7,7 @@ tags:
   - performance
 publish: true
 permalink: note-narrator/settings/performance
-plugin-version: 0.17.1
+plugin-version: 1.0.0
 updated: 2026-09-27
 ---
 
