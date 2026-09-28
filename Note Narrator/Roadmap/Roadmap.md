@@ -17,6 +17,7 @@ updated: 2026-09-27
 
 ## Recently shipped
 
+- **Skip the doubled title.** When the note title exactly matches its first heading, the title is no longer read twice -- see **Skip title when it repeats the first heading** on [[General Settings]]. In beta ahead of the next patch release.
 - **1.0.0.** No user-facing changes over 0.17.1. It hardens the release process: the built `main.js` and `styles.css` now carry a GitHub build-provenance attestation, so anyone can verify they came from this repository's own source; a CSS rule was adjusted to drop a browser-support warning; and a type-resolution dependency (`moment`) is now declared directly instead of arriving indirectly through Obsidian's own package.
 - **0.17.1:** keep generating the current note in the background when you start reading another one (on by default, see [[Background Generation]]); repaint the editor highlight immediately when a highlight setting changes; the note's toolbar icon and the panel's Regenerate label update correctly when switching notes; the custom save folder can no longer be pointed outside the vault; invalid or iOS-unsupported "Skip sections by heading" patterns are flagged as you type
 - **0.17.0: providers and narrator profiles.** The settings screen is reorganised into six tabs (General, Providers, Profiles, Appearance, Performance, Files). Providers hold API keys and parallel-generation limits, and you can add several, even of the same type. Narrator profiles bundle a provider, voice settings, a dropdown toggle and optional reading overrides, and replace the old voice list and panel voices shortlist. Settings that do not apply are greyed out instead of hidden, and saving audio now turns on linking by default
@@ -69,7 +70,6 @@ Not scheduled yet.
 - **Default narrator profile by note folder.** Notes under `Journal/` use one profile, notes under `Work/` another, without touching the panel dropdown each time.
 - **Move tracking data onto the audio file.** Today six properties live on every note. Storing the metadata with the audio file would keep notes clean.
 - **Generate directly in the background.** Skip the "start a read, then move to background" step.
-- **Skip the doubled title.** When a note's title exactly matches its first heading, don't read the title twice.
 - **More content filters.** Toggles to skip code blocks, inline code, blockquotes, tags, tables, image embeds, emojis and other syntax.
 - **Per-section and chapter bookmarks.**
 - **Sentence and word level highlighting.** Needs word timing from the provider to stay in sync.

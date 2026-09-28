@@ -44,6 +44,7 @@ Open **Settings, Note Narrator**. A tab bar at the top switches between six sect
 | Reading overrides | None (inherit General) |
 | Read selection instead of whole note | Enabled |
 | Read note title / properties | Enabled / Disabled |
+| Skip title when it repeats the first heading | Enabled |
 | Skip Markdown comments | Enabled |
 | Text chunker / Max heading depth | Markdown-aware / 2 |
 | Default playback speed | 1x |
