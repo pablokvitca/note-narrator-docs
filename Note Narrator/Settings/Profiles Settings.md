@@ -67,6 +67,7 @@ Each row is a dropdown that starts on **Use default (...)**, showing the current
 | Override | Choices | Greyed out when |
 | --- | --- | --- |
 | Read note title | Use default, On, Off | never |
+| Skip title when it repeats the first heading | Use default, On, Off | Read note title is off (effective value) |
 | Read note properties | Use default, On, Off | never |
 | Skip Markdown comments | Use default, On, Off | never |
 | Don't read comment delimiter symbols | Use default, On, Off | Comments are skipped (effective value) |
